@@ -1,0 +1,79 @@
+/* 共通 */
+div {
+    text-align: center;
+  }
+  
+  .main section .page_container {
+    position: relative;
+    top: 25%;
+    margin: 0 auto 0;
+    max-width: 950px;
+    z-index: 3;
+  }
+  
+  /* ヘッダー */
+  .site-header{
+    display: flex;
+    padding: 17px 26.5px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 3;
+  }
+  .site-logo img{
+    height: 41px;
+    width: auto;
+  }
+  .menu-icon img{
+    height: 39px;
+    width: auto;
+  }
+  
+  
+  /* ページ1 */
+  .main section.page1 {
+    background-image: url(../img/image_01.png);
+    background-size: contain;
+  }
+  .main section.page1 .scroll_down{
+    margin: 100px auto 0;
+  }
+  .page_container_fotter{
+    position: relative;
+    top: 57%;
+    max-width: 898px;
+    z-index: 3;
+    text-align: left;
+  }
+  
+  /* ページ2 */
+  .main section.page2 {
+    background-image: url(../img/image_02.png);
+    background-size: contain;
+  }
+  
+  /* ページ3 */
+  .main section.page3 {
+    background-image: url(../img/image_03.png);
+    background-size: contain;
+  }
+  
+  /* ページ4 */
+  .main section.page4 {
+    background-image: url(../img/image_04.png);
+    background-size: contain;
+  }
+  
+  /* ページ5 */
+  .main section.page5 {
+    background-image: url(../img/image_05.png);
+    background-size: contain;
+  }
+  
+  /* ページ6 */
+  .main section.page6 {
+    background-image: url(../img/image_06.png);
+    background-size: contain;
+  }
+  
+  
