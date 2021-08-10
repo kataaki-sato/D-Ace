@@ -45,13 +45,9 @@ p {
   font-size: 16px;
   font-weight: bold;
 }
-.pc_page1{
-  width:100%;
-
-}
-.pc_page2{
-  width:100%;
-text-align: center;
+.pc_page3{
+  background-color: #B70000;
+  text-align: center;
 }
 .page1_img{
   text-align: center;
@@ -105,6 +101,13 @@ text-align: center;
   background-size: cover;
   text-align: center;
 }
+.top_topic3{
+  background-image: url(../images/background_image3.png);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
 .top_topic2 img{
   text-align: center;
   height:145px;
@@ -118,6 +121,19 @@ text-align: center;
 .Business{
     margin-top: 75px;
 }
+.top_topic3 img{
+  text-align: center;
+  height:145px;
+}
+.top_topic3 .Employment{
+  height:146px;
+}
+.top_topic3 .photo11{
+  height:263px;
+}
+.Employment{
+  margin-top: 75px;
+}
 .page2_jigyou{
   text-align: center;
   font-size: 20px;
@@ -127,14 +143,67 @@ text-align: center;
   margin-top: 45px;
   margin-bottom: 90px;
 }
+.photo11{
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
 .page2_text{
   margin-bottom: 40px;
 }
 .page2_text p{
   text-align: left;
 }
-.zisseki{
-  margin-bottom: 107px;
+.zisseki .row{
+margin-left: 92px;
+}
+.zisseki p{
+  font-size: 24px;
+}
+.zisseki .col-3 .first_topic{
+  font-size: 14px;
+  display:block;
+  height:40px;
+  margin:1em 0;
+  background-color:  #9F0000;
+  color: #FFFFFF;
+  line-height:18px;
+  border-radius:25px;
+  text-decoration:none;
+  text-align:center;
+  padding-top: 10px;
+}
+.zisseki .col-3 p{
+  font-size: 14px;
+  display:block;
+  height:40px;
+  margin:1em 0;
+  border-color: #9F0000;
+  border-style: solid;
+  line-height:18px;
+  border-radius:25px;
+  text-decoration:none;
+  text-align:center;
+  padding-top: 10px;
+}
+.zisseki .col-7 p{
+border-bottom: solid 1px;
+margin-bottom: 25px;
+margin-top: 25px;
+font-size: 13px;
+text-align: left;
+}
+.zisseki h5{
+  font-size: 14px;
+  display:block;
+  height:40px;
+  margin:1em 0;
+  color: #FFFFFF;
+  background-color: #102148;
+  letter-spacing: 0.3px;
+  line-height:18px;
+  padding-top: 10px;
+  text-decoration:none;
+  text-align:center;
 }
 .page2_toiawase{
   margin-top: 130px;
@@ -150,12 +219,83 @@ text-align: center;
   background-color: #B70000;
 text-decoration: none;
 }
+.mail_3{
+  width:359px;
+  height: 67px;
+  margin: 0 auto;
+  padding:13px 0;
+  margin-bottom: 25px;
+  background-color: #62A7E2;
+  background-image: url(../images/yazirusi.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  text-decoration: none;
+}
+
 .white{
     color: #FFFFFF;
 }
+.page3_daikoukai{
+  background-image: url(../images/long_waves.png);
+  text-align: center;
+}
+.hukidashi p{
+  margin: 60px 0;
+  color: #FFFFFF;
+  font-size: 41px;
+  letter-spacing: 0.5px;
+}
+.page3_toiawase p{
+color:#FFFFFF;
+margin-top: 40px;
+}
+.zinzai{
+  margin-top: 45px;
+  margin-bottom: 80px;
+  background-color: #FFFFFF;
+  width: 1088px;
+  height: 764px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topic3{
+  font-size: 24px;
+  padding-top: 86px;
+}
+.ouboyoko{
+  margin-top: 45px;
+  padding-bottom: 67px;
+  background-color: #FFFFFF;
+  width: 1088px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ouboyoko table{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.ouboyoko table td {
+  padding: 20px 0 22px 16px;
+}
+.ouboyoko table span{
+  font-size: 12px;
+}
+ .table_left{
+   width: 260px;
+ }
+ .toiawase2{
+   margin-top: 80px;
+   padding-bottom: 80px;
+ }
 @media screen and (min-width: 768px) {
   p{
     font-size: 16px;
+  }
+  .member img{
+    width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .bgred{
     padding: 62px 312px;
@@ -178,9 +318,9 @@ text-decoration: none;
 height: 230px;
 }
 .pc_page1{
-  width: 1088px;
   margin-left: auto;
   margin-right: auto;
+  width: 1088px;
 }
 .chuou{
   font-size: 24px;
@@ -202,13 +342,21 @@ padding-right: 20px;
   padding-left: 40px;
 }
 .top_topic2 img{
-  margin-bottom: 278px;
   margin-top: 178px;
 }
 .top_topic2 .Business{
   height:283px;
 }
 .top_topic2 .photo4{
+  height:525px;
+}
+.top_topic3 img{
+  margin-top: 178px;
+}
+.top_topic3 .Employment{
+  height:283px;
+}
+.top_topic3 .photo11{
   height:525px;
 }
 .page2_jigyou{
@@ -218,10 +366,15 @@ padding-right: 20px;
 .photo4{
   height:525px;
 }
+.photo11{
+  height:525px;
+}
 .pc_page2{
   width: 1088px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  }
 }
 .page2_text{
   margin-bottom: 60px;
