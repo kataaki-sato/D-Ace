@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195.456" height="15" viewBox="0 0 195.456 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="195.456" height="15" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="リクルートトップへ戻るボタン" transform="translate(-595.75 -1365)">
+    <g id="リピートグリッド_17" data-name="リピートグリッド 17" transform="translate(595.75 1365)" clip-path="url(#clip-path)">
+      <g id="グループ_176" data-name="グループ 176" transform="translate(-595.75 -1365)">
+        <path id="パス_24" data-name="パス 24" d="M415.194,177.632c-8.437,0-15.718-2.445-19.077-5.975-3.359,3.53-10.638,5.975-19.075,5.975s-15.717-2.445-19.077-5.975c-3.359,3.53-10.638,5.975-19.075,5.975s-15.718-2.445-19.077-5.975c-3.36,3.53-10.638,5.975-19.075,5.975" transform="translate(296.012 1229.732)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="パス_25" data-name="パス 25" d="M415.194,177.632c-8.437,0-15.718-2.445-19.077-5.975-3.359,3.53-10.638,5.975-19.075,5.975s-15.717-2.445-19.077-5.975c-3.359,3.53-10.638,5.975-19.075,5.975s-15.718-2.445-19.077-5.975c-3.36,3.53-10.638,5.975-19.075,5.975" transform="translate(296.012 1194.343)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="グループ_176-2" data-name="グループ 176" transform="translate(-479.75 -1365)">
+        <path id="パス_24-2" data-name="パス 24" d="M415.194,177.632c-8.437,0-15.718-2.445-19.077-5.975-3.359,3.53-10.638,5.975-19.075,5.975s-15.717-2.445-19.077-5.975c-3.359,3.53-10.638,5.975-19.075,5.975s-15.718-2.445-19.077-5.975c-3.36,3.53-10.638,5.975-19.075,5.975" transform="translate(296.012 1229.732)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="パス_25-2" data-name="パス 25" d="M415.194,177.632c-8.437,0-15.718-2.445-19.077-5.975-3.359,3.53-10.638,5.975-19.075,5.975s-15.717-2.445-19.077-5.975c-3.359,3.53-10.638,5.975-19.075,5.975s-15.718-2.445-19.077-5.975c-3.36,3.53-10.638,5.975-19.075,5.975" transform="translate(296.012 1194.343)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
