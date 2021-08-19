@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
-  font-family: Avenir , "Helvetica Neue" , Helvetica , Arial , Verdana , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W6" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 img{
   max-width:100%;
@@ -118,24 +118,6 @@ p {
   background-size: cover;
   text-align: center;
 }
-.top_topic3{
-  background-image: url(../images/background_image3.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-.top_topic4{
-  background-color: #B70000;
-  text-align: center;
-}
-.top_topic5{
-  background-image: url(../images/background_image4.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
 .top_topic2 img{
   text-align: center;
   height:145px;
@@ -148,6 +130,13 @@ p {
 }
 .Business{
     margin-top: 75px;
+}
+.top_topic3{
+  background-image: url(../images/background_image3.png);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 .top_topic3 img{
   text-align: center;
@@ -162,8 +151,59 @@ p {
 .Employment{
   margin-top: 75px;
 }
+.top_topic4{
+  background-color: #B70000;
+  text-align: center;
+}
 .top_topic4 .interview{
   margin: 75px 0 70px 0;
+  height:186px;
+}
+.top_topic5{
+  background-image: url(../images/background_image4.png);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.top_topic6{
+  background-image: url(../images/background_image5.png);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+.top_topic6 img{
+  margin: 75px 0 68px;
+  height:186px;
+}
+.top_topic7{
+  background-image: url(../images/background_image5.png);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+.top_topic7 img{
+  margin: 75px 0 68px;
+  height:186px;
+}
+.top_topic8{
+  background-image: url(../images/background_image6.png);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+.top_topic8 img{
+  margin: 75px 0 68px;
+  height:186px;
+}
+.top_topic10{
+  background-image: url(../images/background_image7.png);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+.top_topic10 img{
+  margin: 75px 0 68px;
   height:186px;
 }
 .page2_jigyou{
@@ -237,22 +277,17 @@ text-align: left;
   text-decoration:none;
   text-align:center;
 }
-.page2_toiawase{
-  margin-top: 130px;
+.page8_toiawase{
   color: #FFFFFF;
   text-align: center;
-}
-.page5_toiawase{
-  color: #FFFFFF;
 }
 .mail{
   width:265px;
   height: 50px;
   margin: 0 auto;
-  margin-bottom: 115px;
   padding-top: 15px;
   background-color: #B70000;
-text-decoration: none;
+  text-decoration: none;
 }
 .mail_3{
   width:359px;
@@ -388,7 +423,7 @@ margin-top: 40px;
   /* 決まり次第変更 */
 }
 .page4_backtop {
-  background-image: url(../images/yazirusi_black.svg);
+  background-image: url(../images/yazirusi_black_r.svg);
   background-repeat: no-repeat;
   background-position: 59% 25%;
   text-decoration: none;
@@ -451,6 +486,7 @@ margin-top: 40px;
 @media screen and (min-width: 768px) {
   p{
     font-size: 16px;
+    line-height: 30px;
   }
   .member img{
     width: 1088px;
@@ -555,10 +591,162 @@ padding-right: 20px;
 .kaihatsu{
   margin-top: 107px;
 }
-.page2_toiawase{
-  margin-top: 130px;
+.pc_page6{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding:78px 0 27px;
 }
-.page5_toiawase{
-  margin-top: 66px;
+.page6_news{
+max-width: 905px;
+margin-left: auto;
+margin-right: auto;
+}
+.page6_news .news_image{
+  width: 169px;
+  margin-left: 45px;
+}
+.page6_news .row{
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px;
+  border-bottom-color: #707070;
+}
+.page6_ichiran{
+  font-size: 18px;
+  line-height: 29px;
+}
+.days{
+  font-size: 14px;
+  line-height: 18px;
+}
+.pc_page6 .news_topic{
+  line-height: 25px;
+}
+.saisihn{
+  font-size: 12px;
+  line-height: 29px;
+  color: #707070;
+  text-align: right;
+}
+.page6_next{
+  color: #000000;
+}
+.page6_next p{
+  text-align: right;
+}
+.pc_page7{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding: 73px 0 46px;
+}
+.page7_news{
+max-width: 905px;
+margin-left: auto;
+margin-right: auto;
+}
+.page7_news .news_image{
+  width: 483px;
+  margin: 24px 0;
+}
+.page7_back{
+  color: #000000;
+}
+.page7_back p{
+  margin-top: 57px;
+}
+.page7_midashi{
+  font-size: 24px;
+  line-height: 29px;
+}
+.pc_page8{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding:80px 0 77px;
+}
+.page8_recruit{
+max-width: 905px;
+margin-left: auto;
+margin-right: auto;
+}
+.page8_midashi{
+  color:#B70000;
+  font-size: 20px;
+}
+.page8_toiawase{
+  padding-top:30px;
+}
+.pc_page9{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+margin-top: 115px;
+padding:80px 0 92px;
+}
+.top_topic9{
+font-size: 24px;
+line-height: 29px;
+color: #B70000;
+text-align: center;
+padding-bottom: 62px;
+}
+.page9_kitei{
+  max-width: 905px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page9_midashi{
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.page9_main{
+  font-size: 15px;
+  line-height: 25px;
+}
+.pc_page10{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding:74px 0 70px;
+}
+.page10_contact{
+max-width: 905px;
+margin-left: auto;
+margin-right: auto;
+}
+.page10_contact span{
+  font-size: 12px;
+  color: #B70000;
+}
+.page10_midashi{
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.inline{
+  margin:54px 0 40px 90px;
+}
+.page10_contact .select{
+  width: 536px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.page10_contact .small_form{
+  width:720px;
+  height:38px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.form-group label{
+  margin-left: 90px;
 }
 }
