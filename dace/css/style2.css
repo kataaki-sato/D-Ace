@@ -11,14 +11,26 @@ img{
 }
 p {
   font-size:14px;
-  line-height:1.5em;
+  line-height:25px;
   font-weight: bold;
 }
-
+.about_footer{
+  font-size: 11px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+.footer_info{
+  background-image: url(../images/sp_footer_wave.png);
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-bottom: 40px;
+}
 .top_topic1{
   background-image: url(../images/background_image1.png);
   background-size: 100%;
   background-position: center;
+  background-attachment: fixed;
   text-align: center;
 }
 .top_topic1 img{
@@ -35,14 +47,10 @@ p {
 .member img{
   width: 100%;
 }
-.bgred{
-  background-color: #B70000;
-  color: #FFFFFF;
-  padding:37px 34px;
-}
 .colred{
   color: #B70000;
   font-size: 16px;
+  line-height: 20px;
   font-weight: bold;
 }
 .pc_page3{
@@ -73,31 +81,41 @@ p {
   text-align: center;
 }
 .page1_img img{
-  margin-bottom: 60px;
   width: 328px;
   height: 232px;
 }
 .page1_img p{
   text-align: left;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.page1_image1{
+  margin-bottom: 95px;
+}
+.page1_image2{
+  margin-bottom: 60px;
+}
+.page1_image3{
+  margin-bottom: 50px;
 }
 .page_back{
   background-color: #FFFFFF;
+
 }
 .page1_midashi{
   font-size: 20px;
   margin-top: 24px;
   margin-bottom: 44px;
 }
-
-.chuou{
+.page1_red{
+  background-color: #B70000;
+  color: #FFFFFF;
+  padding:37px 34px;
   font-size: 20px;
 }
-.chuou span{
+.page1_red span{
   font-size: 15px;
 }
-
 .top_topic1{
   background-image: url(../images/background_image1.png);
   background-size: 100%;
@@ -487,6 +505,22 @@ margin-top: 40px;
   p{
     font-size: 16px;
     line-height: 30px;
+    font-weight: bold;
+  }
+  .footer_info{
+    background-image: url(../images/pc_footer_wave.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-bottom: 40px;
+  }
+  .about_footer{
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 64px;
+  }
+  .page_back1{
+    padding-bottom: 68px;
   }
   .member img{
     width: 1088px;
@@ -504,6 +538,7 @@ margin-top: 40px;
   .colred{
     font-size: 20px;
     margin-top: 40px;
+
   }
 .top_topic1 img{
   margin-bottom: 278px;
@@ -518,14 +553,21 @@ height: 230px;
   margin-right: auto;
   width: 1088px;
 }
-.chuou{
+.page1_red{
   font-size: 24px;
+  line-height: 45px;
+  padding: 64px 316px;
 }
-.chuou span{
+.page1_red span{
   font-size: 19px;
+}
+.page1_img p{
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .page1_img img{
 margin-left: 10px;
+margin-bottom: 66px;
 padding-right: 20px;
   width: 504px;
   height: 347px;
@@ -730,6 +772,7 @@ margin-right: auto;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
+  margin-top: 60px;
 }
 .inline{
   margin:54px 0 40px 90px;
@@ -748,5 +791,92 @@ margin-right: auto;
 }
 .form-group label{
   margin-left: 90px;
+}
+.page10_contact .big_form{
+  width:720px;
+  height:214px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.page10_red{
+  margin-bottom: 24px;
+  font-size: 14px;
+  color:#B70000;
+}
+.page10_contact .button{
+  background: #0637A7;
+  color: #FFFFFF;
+  width: 166px;
+  height:44px;
+  border: 0;
+}
+.pc_page11{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding:68px 0 69px;
+}
+.page11_contact{
+max-width: 720px;
+margin-left: auto;
+margin-right: auto;
+}
+.page11_contact .kakunin{
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+input.radio11 {
+  transform: scale(2);
+  margin-left:10px;
+  margin-bottom: 30px;
+}
+.page11_radio span{
+  font-size: 18px;
+  line-height: 25px;
+}
+.page11_red{
+  font-size: 16px;
+  color: #B70000;
+  line-height: 30px;
+  margin-bottom:0;
+}
+.page11_main{
+  font-size: 18px;
+}
+.page11_button_l{
+width: 96px;
+height: 45px;
+margin-right: 480px;
+margin-top: 32px;
+}
+.page11_button_r{
+  border:none;
+  background: #0637A7;
+  color: #FFFFFF;
+  width:138px;
+  height: 45px;
+}
+.pc_page12{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 1088px;
+padding:68px 0 67px;
+}
+.finished{
+  margin-bottom: 53px;
+}
+.page12_backtop{
+  margin-top: 53px;
+}
+.page12_backtop p{
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 22px;
 }
 }
