@@ -3,7 +3,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #000000;
   font-family: "ヒラギノ角ゴ Pro W6" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 img{
@@ -13,6 +12,29 @@ p {
   font-size:14px;
   line-height:25px;
   font-weight: bold;
+}
+.aboutus_body{
+  background-image: url(../images/background_image1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.business_body{
+  background-image: url(../images/background_image2.png);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.employment_body{
+  background-image: url(../images/background_image3.png);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
 }
 .about_footer{
   font-size: 11px;
@@ -27,11 +49,7 @@ p {
   padding-bottom: 40px;
 }
 .top_topic1{
-  background-image: url(../images/background_image1.png);
-  background-size: 100%;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
+
 }
 .top_topic1 img{
   text-align: center;
@@ -130,11 +148,7 @@ p {
 }
 
 .top_topic2{
-  background-image: url(../images/background_image2.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
+
 }
 .top_topic2 img{
   text-align: center;
@@ -143,18 +157,11 @@ p {
 .top_topic2 .Business{
   height:146px;
 }
-.top_topic2 .photo4{
+.top_topic2 .business_top{
   height:263px;
 }
 .Business{
     margin-top: 75px;
-}
-.top_topic3{
-  background-image: url(../images/background_image3.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
 }
 .top_topic3 img{
   text-align: center;
@@ -229,7 +236,7 @@ p {
   font-size: 20px;
   padding-top: 40px;
 }
-.photo4{
+.business_top{
   margin-top: 45px;
   margin-bottom: 90px;
 }
@@ -237,63 +244,101 @@ p {
   margin-top: 45px;
   margin-bottom: 90px;
 }
+
 .page2_text{
   margin-bottom: 40px;
+  padding-right: 13px;
+  padding-left:  13px;
 }
 .page2_text p{
   text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.page2_text .koumoku{
+  padding:0 4px;
 }
 .zisseki .row{
-margin-left: 92px;
+padding: 0;
 }
 .zisseki p{
   font-size: 24px;
 }
-.zisseki .col-3 .first_topic{
-  font-size: 14px;
+.zisseki .col-4 .first_topic{
+  font-size: 11px;
   display:block;
-  height:40px;
+  height:32px;
   margin:1em 0;
+  padding-top: 5px;
   background-color:  #9F0000;
   color: #FFFFFF;
   line-height:18px;
   border-radius:25px;
   text-decoration:none;
   text-align:center;
-  padding-top: 10px;
 }
-.zisseki .col-3 p{
-  font-size: 14px;
+.zisseki .col-4 p{
+  font-size: 11px;
   display:block;
-  height:40px;
-  margin:1em 0;
+  height:30px;
   border-color: #9F0000;
   border-style: solid;
   line-height:18px;
   border-radius:25px;
   text-decoration:none;
   text-align:center;
-  padding-top: 10px;
+  padding-top: 5px;
 }
-.zisseki .col-7 p{
+.zisseki .col-8 p{
 border-bottom: solid 1px;
-margin-bottom: 25px;
-margin-top: 25px;
-font-size: 13px;
+margin-bottom: 9px;
+font-size: 11px;
+line-height: 14px;
 text-align: left;
 }
 .zisseki h5{
-  font-size: 14px;
+  font-size: 11px;
   display:block;
-  height:40px;
+  height:32px;
   margin:1em 0;
+  margin-bottom: 17px;
   color: #FFFFFF;
   background-color: #102148;
-  letter-spacing: 0.3px;
   line-height:18px;
-  padding-top: 10px;
+  padding-top: 7px;
   text-decoration:none;
   text-align:center;
+}
+.kaihatsu{
+  color: #FFFFFF;
+  background-color: #102148;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 48px;
+  padding-top: 52px;
+}
+.kaihatsu_koutei{
+  margin-left:15px;
+}
+.kaihatsu .midashi{
+  font-size: 20px;
+  line-height:25px;
+}
+.business_ex{
+  width: 130px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px #FFF;
+}
+.kaihatsu_img{
+  margin-top: 14px;
+  margin-bottom: 26px;
 }
 .page8_toiawase{
   color: #FFFFFF;
@@ -308,10 +353,10 @@ text-align: left;
   text-decoration: none;
 }
 .mail_3{
-  width:359px;
-  height: 67px;
+  width:302px;
+  height: 56px;
   margin: 0 auto;
-  padding:13px 0;
+  padding:5px 0 0 0 ;
   margin-bottom: 25px;
   background-color: #62A7E2;
   background-image: url(../images/yazirusi.svg);
@@ -326,31 +371,41 @@ text-align: left;
 .page3_daikoukai{
   background-image: url(../images/long_waves.png);
   background-repeat: no-repeat;
-  background-position: 20%;
+  /* background-position: 20%; */
+  background-size: cover;
   text-align: center;
-  padding:68px 0 125px 0;
+  padding:87px 0 108px 0;
 }
 .page3_daikoukai img{
-  height:611px;
+  height:269px;
+}
+.hukidashi img{
+  margin: 0 auto;
 }
 .hukidashi p{
-  margin: 60px 0;
+  margin: 27px 0 40px 0;
   color: #FFFFFF;
-  font-size: 41px;
+  font-size: 28px;
+  line-height: 40px;
   letter-spacing: 0.5px;
 }
+
 .page3_toiawase p{
 color:#FFFFFF;
-margin-top: 40px;
+margin-top: 87px;
 }
 .zinzai{
-  margin-top: 45px;
-  margin-bottom: 80px;
+  margin-top: 40px auto 0;
+  padding-bottom: 32px;
   background-color: #FFFFFF;
-  width: 1088px;
-  height: 764px;
+  width: 343px;
   margin-left: auto;
   margin-right: auto;
+}
+.zinzai_main{
+  font-size: 16px;
+  line-height: 25px;
+  color: #B70000;
 }
 .topic3{
   font-size: 24px;
@@ -538,7 +593,6 @@ margin-top: 40px;
   .colred{
     font-size: 20px;
     margin-top: 40px;
-
   }
 .top_topic1 img{
   margin-bottom: 278px;
@@ -587,28 +641,8 @@ padding-right: 20px;
 .top_topic2 .Business{
   height:283px;
 }
-.top_topic2 .photo4{
+.top_topic2 .business_top{
   height:525px;
-}
-.top_topic3 img{
-  margin-top: 178px;
-}
-.top_topic3 .Employment{
-  height:283px;
-}
-.top_topic3 .photo11{
-  height:525px;
-}
-.top_topic5 img{
-  margin-bottom: 92px;
-}
-.top_topic5 .companyinfo_pic{
-  margin-top: 252px;
-  height:283px;
-}
-.top_topic5 .photo13{
-  margin-top: 150px;
-  height:526px;
 }
 .page2_jigyou{
   font-size: 24px;
@@ -622,17 +656,145 @@ padding-right: 20px;
   }
 .page2_text{
   margin-bottom: 60px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 .page2_text p{
   margin-top: 20px;
-  margin-bottom: 45px;
-  padding-left: 35px;
+  margin-bottom: 50px;
+}
+.page2_text .koumoku{
+  padding:0 20px;
+}
+.zisseki .row{
+margin-left: 92px;
+margin-right: 92px;
+}
+.zisseki p{
+  font-size: 24px;
+}
+.zisseki .col-4 .first_topic{
+  font-size: 14px;
+  height:36px;
+  margin:1em 0;
+  line-height:18px;
+  padding-top: 7px;
+}
+.zisseki .col-4 p{
+  font-size: 14px;
+  height:40px;
+  margin:1em 0;
+  padding-top: 7px;
+}
+.zisseki .col-8 p{
+font-size: 13px;
+line-height: 18px;
+}
+.zisseki h5{
+  font-size: 14px;
+  display:block;
+  height:36px;
+  margin:1em 0;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  background-color: #102148;
+  letter-spacing: 0.3px;
+  line-height:18px;
+  padding-top: 10px;
+  text-decoration:none;
+  text-align:center;
 }
 .kaihatsu{
+  color: #FFFFFF;
+  background-color: #102148;
+  text-align: center;
   margin-top: 107px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 66px;
+  padding-top: 72px;
 }
+.kaihatsu .row{
+  margin: 0 120px;
+}
+.kaihatsu_koutei{
+  margin-left:77px;
+}
+.kaihatsu .midashi{
+  font-size: 24px;
+  line-height:29px;
+}
+.business_ex{
+  width: 130px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 62px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px #FFF;
+}
+.kaihatsu_img{
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.top_topic3 img{
+  margin-top: 178px;
+}
+.top_topic3 .Employment{
+  height:283px;
+}
+.top_topic3 .photo11{
+  height:525px;
+}
+.page3_daikoukai{
+  background-image: url(../images/long_waves.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  text-align: center;
+  padding:68px 0 125px 0;
+}
+.page3_daikoukai img{
+  height:611px;
+}
+.hukidashi p{
+  margin: 60px 0;
+  color: #FFFFFF;
+  font-size: 41px;
+  line-height: 59px;
+  letter-spacing: 0.5px;
+}
+.page3_toiawase p{
+color:#FFFFFF;
+margin-top: 40px;
+}
+.mail_3{
+  width:359px;
+  height: 67px;
+  margin: 0 auto;
+  padding:13px 0;
+  margin-bottom: 25px;
+}
+.zinzai{
+  margin: 45px auto 80px auto;
+  width: 1088px;
+}
+.zinzai_main{
+  font-size: 20px;
+  line-height: 35px;
+  color: #B70000;
+}
+.top_topic5 img{
+  margin-bottom: 92px;
+}
+.top_topic5 .companyinfo_pic{
+  margin-top: 252px;
+  height:283px;
+}
+.top_topic5 .photo13{
+  margin-top: 150px;
+  height:526px;
+}
+
 .pc_page6{
 margin-left: auto;
 margin-right: auto;
