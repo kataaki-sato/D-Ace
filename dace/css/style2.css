@@ -3,6 +3,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #000000;
   font-family: "ヒラギノ角ゴ Pro W6" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 img{
@@ -16,15 +17,16 @@ p {
 .aboutus_body{
   background-image: url(../images/background_image1.png);
   background-size: cover;
+  background-position: center;
   background-repeat:no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  text-align: center;
 }
 .business_body{
   background-image: url(../images/background_image2.png);
   background-size: cover;
   background-position: center;
-  background-size: cover;
+  background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
@@ -32,7 +34,7 @@ p {
   background-image: url(../images/background_image3.png);
   background-size: cover;
   background-position: center;
-  background-size: cover;
+  background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
@@ -48,8 +50,8 @@ p {
   text-align: left;
   padding-bottom: 40px;
 }
-.top_topic1{
-
+.interview_footer{
+  background-color: #000000;
 }
 .top_topic1 img{
   text-align: center;
@@ -75,13 +77,13 @@ p {
   width: 100%;
   background-color: #B70000;
   text-align: center;
-  padding-bottom: 45px;
+  padding-top: 46px;
+  padding-bottom: 38px;
 }
 .pc_page4{
-  width: 100%;
   background-color: #B70000;
   text-align: center;
-  padding-bottom: 71px;
+  padding-bottom: 29px;
 }
 .pc_page5{
   width: 1088px;
@@ -90,10 +92,11 @@ p {
   text-align: center;
   }
 .page4_interview{
-  width: 1088px;
+  width: 359px;
   background-color: #FFFFFF;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 54px;
 }
 .page1_img{
   text-align: center;
@@ -134,13 +137,6 @@ p {
 .page1_red span{
   font-size: 15px;
 }
-.top_topic1{
-  background-image: url(../images/background_image1.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
 .top_topic1 img{
   text-align: center;
   margin-top: 75px;
@@ -170,7 +166,7 @@ p {
 .top_topic3 .Employment{
   height:146px;
 }
-.top_topic3 .photo11{
+.top_topic3 .employ_top{
   height:263px;
 }
 .Employment{
@@ -180,9 +176,9 @@ p {
   background-color: #B70000;
   text-align: center;
 }
-.top_topic4 .interview{
-  margin: 75px 0 70px 0;
-  height:186px;
+.top_topic4 img{
+  margin: 46px 0 75px 0;
+  height:146px;
 }
 .top_topic5{
   background-image: url(../images/background_image4.png);
@@ -240,7 +236,7 @@ p {
   margin-top: 45px;
   margin-bottom: 90px;
 }
-.photo11{
+.employ_top{
   margin-top: 45px;
   margin-bottom: 90px;
 }
@@ -356,7 +352,7 @@ text-align: left;
   width:302px;
   height: 56px;
   margin: 0 auto;
-  padding:5px 0 0 0 ;
+  padding-top:15px;
   margin-bottom: 25px;
   background-color: #62A7E2;
   background-image: url(../images/yazirusi.svg);
@@ -364,17 +360,16 @@ text-align: left;
   background-position: 90% 50%;
   text-decoration: none;
 }
-
 .white{
     color: #FFFFFF;
 }
 .page3_daikoukai{
   background-image: url(../images/long_waves.png);
   background-repeat: no-repeat;
-  /* background-position: 20%; */
+  background-position: 50%;
   background-size: cover;
   text-align: center;
-  padding:87px 0 108px 0;
+  margin-bottom: 30px;
 }
 .page3_daikoukai img{
   height:269px;
@@ -389,13 +384,12 @@ text-align: left;
   line-height: 40px;
   letter-spacing: 0.5px;
 }
-
 .page3_toiawase p{
 color:#FFFFFF;
-margin-top: 87px;
 }
 .zinzai{
-  margin-top: 40px auto 0;
+  margin-top: 40px;
+  padding-top: 40px;
   padding-bottom: 32px;
   background-color: #FFFFFF;
   width: 343px;
@@ -408,14 +402,15 @@ margin-top: 87px;
   color: #B70000;
 }
 .topic3{
-  font-size: 24px;
-  padding-top: 86px;
+  font-size: 20px;
+  line-height: 25px;
 }
 .ouboyoko{
-  margin-top: 45px;
-  padding-bottom: 67px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #FFFFFF;
-  width: 1088px;
+  width: 343px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -425,82 +420,114 @@ margin-top: 87px;
   font-weight: bold;
 }
 .ouboyoko table td {
-  padding: 20px 0 22px 16px;
+  padding: 10px 12px 10px 12px;
 }
 .ouboyoko table span{
-  font-size: 12px;
+  font-size: 9px;
+  line-height: 18px;
 }
  .table_left{
-   width: 260px;
+   font-size: 12px;
+   line-height: 15px;
+   width: 80px;
+ }
+ .oubo_main{
+   font-size: 12px;
+   line-height: 15px;
+   width: 248px;
+ }
+ .pc_page3 .center{
+   margin:0 auto;
  }
  .toiawase2{
    margin: 80px 0;
  }
  .toiawase3{
-   margin: 80px 0 70px 0;
+   margin: 40px 0 55px 0;
  }
 .Montserrat{
   font-family: 'Montserrat';
-  font-size: 48px;
+  font-size: 29px;
+  line-height: 55px;
 }
 .page3_interview{
-  padding-bottom: 103px;
+  padding-bottom: 28px;
   background-color: #FFFFFF;
-  width: 1088px;
+  width: 343px;
   margin-left: auto;
   margin-right: auto;
 }
 .crew_interview{
-  font-size: 24px;
-}
-.page3_interview .row{
-  margin:0 100px;
+  font-size: 14px;
+  line-height: 17px;
 }
 .hundle{
   padding-top: 32px;
 }
 .yakusyoku{
   color:#B70000;
-  font-size: 16px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.nyusya{
+  font-size: 9px;
   font-weight: bold;
 }
 .janame{
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
 }
 .enname{
-  font-size: 14px;
+  font-size: 9px;
   font-weight: bold;
   font-family: 'Montserrat';
 }
 .hatarakikata{
   margin-bottom: 10px;
 }
+.top_topic4 img{
+  margin: 75px 0 52px 0;
+  height:186px;
+}
+.pc_page4 .col-12{
+  padding:0;
+}
 .bassui{
-  padding: 0 40px;
-}
-.bassui .col-6{
-  margin-bottom:50px;
-}
-.page4_midashi1{
-  padding: 65px 0;
-  font-size: 24px;
-}
-.page4_midashi2{
-  color:#B70000;
-  font-size: 20px;
+  padding: 0 25px;
   text-align: left;
 }
-.page4_design{
-  padding-bottom: 512px;
-  /* 決まり次第変更 */
+.interview_midashi{
+  font-size: 16px;
+  line-height: 20px;
+  color:#B70000;
+}
+.hitokoto{
+background-color: #FFB4B4;
+padding: 40px 13px;
+text-align: left;
+margin-top: 60px;
+margin-bottom: 40px;
+}
+.hitokoto img{
+  height: 84px;
+}
+.hitokoto .col-8{
+  padding-left: 0;
+}
+.hitokoto .col-4{
+  padding: 0;
+}
+.page4_midashi1{
+  text-align: center;
+  padding: 40px 0 44px;
+  font-size: 20px;
 }
 .page4_backtop {
   background-image: url(../images/yazirusi_black_r.svg);
   background-repeat: no-repeat;
-  background-position: 59% 25%;
+  background-position: 75% 30%;
   text-decoration: none;
-  padding-bottom: 60px;
+  padding-bottom: 38px;
 }
 .page4_backtop p{
   color: #000000;
@@ -572,7 +599,7 @@ margin-top: 87px;
     font-size: 13px;
     line-height: 14px;
     color: #FFFFFF;
-    margin-top: 64px;
+    padding-top: 64px;
   }
   .page_back1{
     padding-bottom: 68px;
@@ -743,15 +770,22 @@ line-height: 18px;
 .top_topic3 .Employment{
   height:283px;
 }
-.top_topic3 .photo11{
+.top_topic3 .employ_top{
   height:525px;
+}
+.pc_page3{
+  width: 100%;
+  background-color: #B70000;
+  text-align: center;
+  padding-top: 68px;
+  padding-bottom: 102px;
 }
 .page3_daikoukai{
   background-image: url(../images/long_waves.png);
   background-repeat: no-repeat;
   background-position: 80%;
   text-align: center;
-  padding:68px 0 125px 0;
+  margin-bottom: 125px;
 }
 .page3_daikoukai img{
   height:611px;
@@ -763,26 +797,122 @@ line-height: 18px;
   line-height: 59px;
   letter-spacing: 0.5px;
 }
-.page3_toiawase p{
-color:#FFFFFF;
-margin-top: 40px;
-}
 .mail_3{
   width:359px;
   height: 67px;
   margin: 0 auto;
-  padding:13px 0;
+  padding:20px 0;
   margin-bottom: 25px;
 }
 .zinzai{
   margin: 45px auto 80px auto;
   width: 1088px;
+  padding-top: 86px;
+  padding-bottom: 77px;
 }
 .zinzai_main{
   font-size: 20px;
   line-height: 35px;
   color: #B70000;
 }
+.ouboyoko{
+  padding-top: 86px;
+  padding-bottom: 67px;
+  background-color: #FFFFFF;
+  width: 1088px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topic3{
+  font-size: 24px;
+  line-height: 29px;
+}
+.ouboyoko table{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.ouboyoko table td {
+  padding: 20px 0 22px 16px;
+}
+.ouboyoko table span{
+  font-size: 12px;
+  line-height: 25px;
+}
+ .table_left{
+   font-size: 16px;
+  line-height: 20px;
+   width: 260px;
+ }
+ .oubo_main{
+   width: 462px;
+   font-size: 16px;
+   line-height: 25px;
+ }
+ .page3_interview{
+   padding-bottom: 94px;
+   width: 1088px;
+ }
+ .page3_interview .row{
+   margin:0 100px;
+ }
+ .Montserrat{
+   font-family: 'Montserrat';
+   font-size: 48px;
+   line-height: 91px;
+ }
+ .crew_interview{
+   font-size: 24px;
+   line-height: 29px;
+ }
+ .yakusyoku{
+   color:#B70000;
+   font-size: 16px;
+ }
+ .nyusya{
+   font-size: 13px;
+ }
+ .janame{
+   font-size: 18px;
+ }
+ .enname{
+   font-size: 13px;
+ }
+ .toiawase3{
+   margin: 80px 0 70px 0;
+ }
+ .pc_page4{
+   padding-bottom: 79px;
+ }
+ .page4_interview{
+   width: 1088px;
+   margin-bottom: 72px;
+ }
+ .bassui{
+   padding: 0 92px;
+   text-align: left;
+ }
+ .page4_midashi1{
+   padding: 65px 0 48px 0;
+   font-size: 24px;
+ }
+ .hitokoto{
+ padding: 40px 182px;
+ text-align: left;
+ margin-top: 66px;
+ margin-bottom: 62px;
+ }
+ .hitokoto img{
+   height: 164px;
+  }
+ .page4_backtop {
+   background-position: 59% 25%;
+   padding-bottom: 70px;
+ }
+ .interview_midashi{
+   font-size: 20px;
+   line-height: 30px;
+ }
 .top_topic5 img{
   margin-bottom: 92px;
 }
