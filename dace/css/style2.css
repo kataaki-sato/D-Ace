@@ -38,6 +38,15 @@ p {
   background-attachment: fixed;
   text-align: center;
 }
+.companyinfo_body{
+  background-image: url(../images/background_image4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
 .about_footer{
   font-size: 11px;
   line-height: 14px;
@@ -86,7 +95,7 @@ p {
   padding-bottom: 29px;
 }
 .pc_page5{
-  width: 1088px;
+  width: 359px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -179,13 +188,6 @@ p {
 .top_topic4 img{
   margin: 46px 0 75px 0;
   height:146px;
-}
-.top_topic5{
-  background-image: url(../images/background_image4.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
 }
 .top_topic6{
   background-image: url(../images/background_image5.png);
@@ -533,28 +535,48 @@ margin-bottom: 40px;
   color: #000000;
   margin-bottom: 0;
 }
+
+.top_topic5 .companyinfo_pic{
+  margin-top: 123px;
+  height:146px;
+}
+.top_topic5 .companyinfo_top{
+  margin-top: 52px;
+  margin-bottom: 48px;
+  height:263px;
+}
 .company_image{
-  padding: 40px 17px 68px;
+  padding: 58px 4px 30px;
+}
+.company_image img{
+  margin-bottom: 10px
 }
 .company_info{
-  width: 720px;
+  padding: 0 28px;
   margin-left: auto;
   margin-right: auto;
 }
 .kigyou_info{
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .company_info .red{
   font-size: 20px;
   color:#B70000;
 }
-.company_info1 p{
-  line-height: 30px;
+.company_info1 td{
+  font-size: 14px;
+  line-height: 25px;
+  width: 221px;
+}
+.company_info1 td{
+  font-size: 14px;
+  line-height: 25px;
 }
 .iframe-wrap {
   position: relative;
-  width: 100%;
-  padding-top: 28%; /* = height ÷ width × 100 */
+  max-width: 100%;
+  padding-top: 66%; /* = height ÷ width × 100 */
 }
 .iframe-wrap iframe {
   position: absolute;
@@ -562,6 +584,10 @@ margin-bottom: 40px;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.border-r p{
+  margin: 0;
 }
 .access_info{
   font-size: 13px;
@@ -575,9 +601,11 @@ margin-bottom: 40px;
 .enkaku p{
   font-size: 16px;
   line-height: 50px;
+  margin: 0;
 }
 .enkaku span{
   color: #B70000;
+
 }
 .page5_last{
   padding: 104px 0;
@@ -913,6 +941,12 @@ line-height: 18px;
    font-size: 20px;
    line-height: 30px;
  }
+ .company_image{
+   padding: 40px 17px 68px;
+ }
+ .pc_page5{
+   width: 1088px;
+  }
 .top_topic5 img{
   margin-bottom: 92px;
 }
@@ -920,9 +954,45 @@ line-height: 18px;
   margin-top: 252px;
   height:283px;
 }
-.top_topic5 .photo13{
+.top_topic5 .companyinfo_top{
   margin-top: 150px;
   height:526px;
+}
+
+.company_info{
+  width: 720px;
+}
+.kigyou_info{
+  font-size: 24px;
+}
+.company_info .red{
+  font-size: 20px;
+  color:#B70000;
+}
+.company_info1 td{
+  font-size: 16px;
+  line-height: 30px;
+}
+.company_info1 th{
+  font-size: 16px;
+  line-height: 30px;
+}
+.iframe-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 28%; /* = height ÷ width × 100 */
+  margin: 12px 0;
+}
+.iframe-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.border-r{
+  border-right: solid 1px;
+  border-bottom-color: #707070;
 }
 
 .pc_page6{
