@@ -1,241 +1,89 @@
-
-body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  font-family: Avenir , "Helvetica Neue" , Helvetica , Arial , Verdana , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+/* 共通 */
+div {
+  text-align: center;
 }
-img{
-  max-width:100%;
-}
-p {
-  font-size:14px;
-  line-height:1.5em;
-  font-weight: bold;
+.main section .page_container {
+  position: relative;
+  top: 25%;
+  margin: 0 auto 0;
+  max-width: 950px;
+  z-index: 3;
 }
 
-.top_topic1{
-  background-image: url(../images/background_image1.png);
-  background-size: 100%;
-  background-position: center;
-  text-align: center;
-}
-.top_topic1 img{
-  text-align: center;
-  margin-top: 75px;
-  height:145px;
-}
-.dace_logo1{
-  margin-bottom: 188px;
-}
-.member{
- position: relative;
-}
-.member img{
-  width: 100%;
-}
-.bgred{
-  background-color: #B70000;
-  color: #FFFFFF;
-  padding:37px 34px;
-}
-.colred{
-  color: #B70000;
-  font-size: 16px;
-  font-weight: bold;
-}
-.pc_page1{
-  width:100%;
-}
-.top_topic2 .Business{
-  height:146px;
-}
-.top_topic2 .photo4{
-  height:263px;
-}
-.pc_page2{
-  width:100%;
-text-align: center;
-}
-.page1_img{
-  text-align: center;
-}
-.page1_img img{
-  margin-bottom: 60px;
-  width: 328px;
-  height: 232px;
-}
-.page1_img p{
-  text-align: left;
-  padding-left: 35px;
-  padding-right: 35px;
-}
-.page1_back{
-  background-color: #FFFFFF;
-}
-.page2_back{
-  background-color: #FFFFFF;
-}
-.page1_midashi{
-  font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 44px;
+/* 背景三角形 */
+.test{
+  position: fixed;
+left: 50%;
+top: 150px;
+margin-left: -185px;
+height: 370px;
+width: 370px;
 }
 
-.chuou{
-  font-size: 20px;
-}
-.chuou span{
-  font-size: 15px;
-}
 
-.top_topic1{
-  background-image: url(../images/background_image1.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-.top_topic1 img{
-  text-align: center;
-  margin-top: 75px;
-  height:145px;
-}
-
-.top_topic2{
-  background-image: url(../images/background_image2.png);
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-.top_topic2 img{
-  text-align: center;
-  height:145px;
-}
-.Business{
-    margin-top: 75px;
-}
-.page2_jigyou{
-  text-align: center;
-  font-size: 20px;
-  padding-top: 40px;
-}
-.photo4{
-  margin-top: 45px;
-  margin-bottom: 90px;
-}
-.page2_text{
-  margin-bottom: 40px;
-}
-.page2_text p{
-  text-align: left;
-}
-.zisseki{
-  margin-bottom: 107px;
-}
-.page2_toiawase{
-  margin-top: 130px;
-  color: #FFFFFF;
-  text-align: center;
-}
-.mail{
-  width:265px;
-  height: 50px;
-  margin: 0 auto;
-  margin-bottom: 115px;
-  padding-top: 15px;
-  background-color: #B70000;
-text-decoration: none;
-}
-.white{
-    color: #FFFFFF;
-}
-@media screen and (min-width: 768px) {
-  p{
-    font-size: 16px;
+  /* ヘッダー */
+  .site-header{
+    display: flex;
+    padding: 17px 26.5px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 3;
   }
-  .bgred{
-    padding: 62px 312px;
+  .site-logo img{
+    height: 41px;
+    width: auto;
   }
-  .page1_midashi{
-    font-size: 24px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+  .menu-icon img{
+    height: 39px;
+    width: auto;
   }
-  .colred{
-    font-size: 20px;
-    margin-top: 40px;
+  
+  
+  /* ページ1 */
+  .main section.page1 {
+    background-image: url(../img/pc/image_01.png);
+    background-size: contain;
   }
-.top_topic1 img{
-  margin-bottom: 278px;
-  margin-top: 178px;
-  height:283px;
-}
-.dace_logo1{
-height: 230px;
-}
-.pc_page1{
-  width: 1088px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.chuou{
-  font-size: 24px;
-}
-.chuou span{
-  font-size: 19px;
-}
-.page1_img img{
-margin-left: 10px;
-padding-right: 20px;
-  width: 504px;
-  height: 347px;
-}
-.order1{
-  order: 2;
-}
-.order2{
-  order: 1;
-  padding-left: 40px;
-}
-.top_topic2 img{
-  margin-bottom: 278px;
-  margin-top: 178px;
-}
-.top_topic2 .Business{
-  height:283px;
-}
-.top_topic2 .photo4{
-  height:525px;
-}
-.page2_jigyou{
-  font-size: 24px;
-  padding: 90px 0 90px 0;
-}
-.photo4{
-  height:525px;
-}
-.pc_page2{
-  width: 1088px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.page2_text{
-  margin-bottom: 60px;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-.page2_text p{
-  margin-top: 20px;
-  margin-bottom: 45px;
-  padding-left: 35px;
-}
-.kaihatsu{
-  margin-top: 107px;
-}
-.page2_toiawase{
-  margin-top: 130px;
-}
-}
+  .main section.page1 .scroll_down{
+    margin: 100px auto 0;
+  }
+  .page_container_fotter{
+    position: relative;
+    top: 57%;
+    max-width: 898px;
+    z-index: 3;
+    text-align: left;
+  }
+  
+  /* ページ2 */
+  .main section.page2 {
+    background-image: url(../img/pc/image_02.png);
+    background-size: contain;
+  }
+  
+  /* ページ3 */
+  .main section.page3 {
+    background-image: url(../img/pc/image_03.png);
+    background-size: contain;
+  }
+  
+  /* ページ4 */
+  .main section.page4 {
+    background-image: url(../img/pc/image_04.png);
+    background-size: contain;
+  }
+  
+  /* ページ5 */
+  .main section.page5 {
+    background-image: url(../img/pc/image_05.png);
+    background-size: contain;
+  }
+  
+  /* ページ6 */
+  .main section.page6 {
+    background-image: url(../img/pc/image_06.png);
+    background-size: contain;
+  }
+  
+  
