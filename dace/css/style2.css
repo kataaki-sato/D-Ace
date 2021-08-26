@@ -60,6 +60,13 @@ p {
     background-attachment: fixed;
     text-align: center;
 }
+.partnerfreelance_body{
+  background-image: url(../images/background_image6.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
 .about_footer{
   font-size: 11px;
   line-height: 14px;
@@ -75,19 +82,28 @@ p {
 .interview_footer{
   background-color: #000000;
 }
+.pc_page1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 358px;
+}
+.top_topic1{
+  margin-top: 116px;
+}
 .top_topic1 img{
   text-align: center;
-  margin-top: 75px;
   height:145px;
 }
 .dace_logo1{
-  margin-bottom: 188px;
+  margin:73px 0 188px;
 }
 .member{
  position: relative;
 }
 .member img{
-  width: 100%;
+  width: 358px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .colred{
   color: #B70000;
@@ -129,11 +145,10 @@ p {
 }
 .page1_img p{
   text-align: left;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 0 6px;
 }
 .page1_image1{
-  margin-bottom: 95px;
+  margin-bottom: 75px;
 }
 .page1_image2{
   margin-bottom: 60px;
@@ -147,26 +162,16 @@ p {
 }
 .page1_midashi{
   font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 44px;
+  margin: 40px 0;
 }
 .page1_red{
   background-color: #B70000;
   color: #FFFFFF;
-  padding:37px 34px;
+  padding:36px 29px 37px 33px;
   font-size: 20px;
 }
 .page1_red span{
   font-size: 15px;
-}
-.top_topic1 img{
-  text-align: center;
-  margin-top: 75px;
-  height:145px;
-}
-
-.top_topic2{
-
 }
 .top_topic2 img{
   text-align: center;
@@ -199,7 +204,7 @@ p {
   text-align: center;
 }
 .top_topic4 img{
-  margin: 46px 0 75px 0;
+  margin: 48px 0 75px 0;
   height:146px;
 }
 
@@ -208,18 +213,16 @@ p {
   height:146px;
 }
 .top_topic7 img{
-  margin: 75px 0 68px;
+  margin: 48px 0 75px;
   height:186px;
 }
 .top_topic8{
-  background-image: url(../images/background_image6.png);
-  background-size: 100%;
-  background-position: center;
-  text-align: center;
+
 }
 .top_topic8 img{
-  margin: 75px 0 68px;
-  height:186px;
+  margin: 48px auto 61px;
+  width: 344px;
+  height:160px;
 }
 .top_topic10{
   background-image: url(../images/background_image7.png);
@@ -252,7 +255,6 @@ p {
 }
 .page2_text p{
   text-align: left;
-  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -339,18 +341,6 @@ text-align: left;
 .kaihatsu_img{
   margin-top: 14px;
   margin-bottom: 26px;
-}
-.page8_toiawase{
-  color: #FFFFFF;
-  text-align: center;
-}
-.mail{
-  width:265px;
-  height: 50px;
-  margin: 0 auto;
-  padding-top: 15px;
-  background-color: #B70000;
-  text-decoration: none;
 }
 .mail_3{
   width:302px;
@@ -709,6 +699,70 @@ margin-right: auto;
   font-size: 20px;
   line-height: 25px;
 }
+.pc_page8{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 343px;
+padding:46px 20px 57px;
+}
+.page8_recruit{
+  text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+.page8_midashi{
+  color:#B70000;
+  font-size: 16px;
+  line-height: 20px;
+}
+.page8_toiawase{
+  padding-top:24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.mail{
+  width:191px;
+  height: 40px;
+  font-size: 13px;
+  line-height: 25px;
+  margin: 0 auto;
+  padding-top: 8px;
+  background-color: #B70000;
+  background-image: url(../images/mail_logo.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  text-decoration: none;
+}
+.pc_page9{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 342px;
+margin-top: 88px;
+padding:44px 18px 54px;
+}
+.page9_kitei{
+  margin-left: auto;
+  margin-right: auto;
+}
+.top_topic9{
+font-size: 20px;
+line-height: 25px;
+color: #B70000;
+text-align: center;
+padding-bottom: 34px;
+}
+.page9_midashi{
+  font-size: 16px;
+  line-height: 20px;
+  color: #2A354E;
+  text-align: center;
+}
+.page9_main p{
+  font-size: 13px;
+  line-height: 20px;
+}
 @media screen and (min-width: 768px) {
   p{
     font-size: 16px;
@@ -736,24 +790,24 @@ margin-right: auto;
   }
   .member img{
     width: 1088px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .bgred{
     padding: 62px 312px;
   }
   .page1_midashi{
     font-size: 24px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px 0;
   }
   .colred{
     font-size: 20px;
     margin-top: 40px;
   }
+  .top_topic1{
+    margin-top: 0;
+  }
 .top_topic1 img{
-  margin-bottom: 278px;
-  margin-top: 178px;
+  margin-bottom: 275px;
+  margin-top: 252px;
   height:283px;
 }
 .dace_logo1{
@@ -1207,10 +1261,12 @@ margin-right: auto;
   font-size: 24px;
   line-height: 29px;
 }
+.top_topic8 img{
+  margin: 75px auto 68px;
+  width: 784px;
+  height:186px;
+}
 .pc_page8{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 padding:80px 0 77px;
 }
@@ -1222,14 +1278,21 @@ margin-right: auto;
 .page8_midashi{
   color:#B70000;
   font-size: 20px;
+  line-height: 30px;
 }
 .page8_toiawase{
   padding-top:30px;
 }
+.mail{
+  width:265px;
+  height: 51px;
+  line-height: 36px;
+  font-size: 19px;
+  margin: 0 auto;
+  padding-top: 8px;
+  background-position: 10% 50%;
+}
 .pc_page9{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 margin-top: 115px;
 padding:80px 0 92px;
@@ -1237,21 +1300,17 @@ padding:80px 0 92px;
 .top_topic9{
 font-size: 24px;
 line-height: 29px;
-color: #B70000;
-text-align: center;
 padding-bottom: 62px;
 }
 .page9_kitei{
   max-width: 905px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .page9_midashi{
   font-size: 18px;
   line-height: 25px;
   text-align: center;
 }
-.page9_main{
+.page9_main p{
   font-size: 15px;
   line-height: 25px;
 }
