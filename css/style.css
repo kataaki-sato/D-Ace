@@ -9,6 +9,9 @@ div {
   max-width: 950px;
   z-index: 3;
 }
+.more_button{
+  margin-top: 39px;
+}
 
 /* 背景三角形 */
 .test{
@@ -61,11 +64,33 @@ width: 370px;
     background-image: url(../img/pc/image_02.png);
     background-size: contain;
   }
+  .page2_textbox{
+    margin-top: 31px;
+  }
+  .page2_subtitle{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 23px;
+  }
+  .page2_text{
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .page2_text + .page2_text{
+    margin-top: 40px;
+  }
+
   
   /* ページ3 */
   .main section.page3 {
     background-image: url(../img/pc/image_03.png);
     background-size: contain;
+  }
+  .page3_text{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 12px;
   }
   
   /* ページ4 */
@@ -73,11 +98,41 @@ width: 370px;
     background-image: url(../img/pc/image_04.png);
     background-size: contain;
   }
+  .page4_img{
+    margin-top: -75px;
+  }
+  .page4_text{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+
   
   /* ページ5 */
   .main section.page5 {
     background-image: url(../img/pc/image_05.png);
     background-size: contain;
+  }
+  .page5_img{
+    margin-top: -75px;
+  }
+  .page5_subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+
+  }
+  .page5_textbox > div{
+    text-align: left;
+    color: #ffffff;
+  }
+  .page5_text{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 37px;
+    font-weight: bold;
   }
   
   /* ページ6 */
