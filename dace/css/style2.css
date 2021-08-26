@@ -46,7 +46,20 @@ p {
   background-attachment: fixed;
   text-align: center;
 }
-
+.newslist_body{
+  background-image: url(../images/background_image5.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.newspage_body{
+    background-image: url(../images/background_image5.png);
+    background-position: top;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
 .about_footer{
   font-size: 11px;
   line-height: 14px;
@@ -57,7 +70,7 @@ p {
   background-image: url(../images/sp_footer_wave.png);
   background-repeat: no-repeat;
   text-align: left;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .interview_footer{
   background-color: #000000;
@@ -189,21 +202,10 @@ p {
   margin: 46px 0 75px 0;
   height:146px;
 }
-.top_topic6{
-  background-image: url(../images/background_image5.png);
-  background-size: 100%;
-  background-position: center;
-  text-align: center;
-}
+
 .top_topic6 img{
-  margin: 75px 0 68px;
-  height:186px;
-}
-.top_topic7{
-  background-image: url(../images/background_image5.png);
-  background-size: 100%;
-  background-position: center;
-  text-align: center;
+  margin: 48px 0 75px;
+  height:146px;
 }
 .top_topic7 img{
   margin: 75px 0 68px;
@@ -564,19 +566,19 @@ margin-bottom: 40px;
   font-size: 20px;
   color:#B70000;
 }
+.company_info .col-12{
+  padding: 0;
+}
 .company_info1 td{
   font-size: 14px;
   line-height: 25px;
   width: 221px;
 }
-.company_info1 td{
-  font-size: 14px;
-  line-height: 25px;
-}
 .iframe-wrap {
   position: relative;
   max-width: 100%;
   padding-top: 66%; /* = height ÷ width × 100 */
+  margin: 12px 0;
 }
 .iframe-wrap iframe {
   position: absolute;
@@ -585,22 +587,31 @@ margin-bottom: 40px;
   width: 100%;
   height: 100%;
 }
-
 .border-r p{
   margin: 0;
 }
 .access_info{
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 11px;
+  line-height: 17px;
+}
+.torihiki{
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.torihiki td{
+  width:176px;
 }
 .enkaku_midashi{
   font-size: 24px;
   line-height: 29px;
+  margin-top: 68px;
+  margin-bottom: 34px;
   text-align: center;
 }
 .enkaku p{
-  font-size: 16px;
-  line-height: 50px;
+  font-size: 14px;
+  line-height: 30px;
   margin: 0;
 }
 .enkaku span{
@@ -608,8 +619,95 @@ margin-bottom: 40px;
 
 }
 .page5_last{
-  padding: 104px 0;
+  padding: 80px 0 46px 0;
+}
+.page5_last a{
   color: #000000;
+}
+.pc_page6{
+margin-left: auto;
+margin-right: auto;
+max-width: 367px;
+padding:0;
+}
+.page6_news{
+max-width: 343px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+.page6_news .news_image{
+  max-width: 111px;
+  height: 90px;
+}
+.page6_news .row{
+  margin-bottom: 20px;
+  border-bottom: solid 1px;
+  border-bottom-color: #707070;
+}
+.page6_news .col-8{
+  padding-left:9px;
+  padding-right: 9px;
+}
+.page6_news .col-4{
+  padding-left: 0;
+}
+.page6_ichiran{
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 29px;
+}
+.days{
+  margin: 0;
+  font-size: 11px;
+  line-height: 18px;
+}
+.pc_page6 .news_topic{
+  line-height: 20px;
+}
+.saisihn{
+  font-size: 12px;
+  line-height: 29px;
+  color: #707070;
+  text-align: right;
+}
+.page6_next{
+  color: #000000;
+}
+.page6_next p{
+  text-align: right;
+  padding-bottom: 27px;
+}
+.pc_page7{
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 359px;
+padding: 75px 29px 26px;
+}
+.page7_news{
+margin-left: auto;
+margin-right: auto;
+}
+.page7_news .news_image{
+  width: 302px;
+  margin: 13px 0 25px 0;
+}
+.page7_news .days{
+  font-size: 12px;
+  line-height: 18px;
+}
+.page7_back{
+  color: #000000;
+}
+.page7_back p{
+  margin-top: 69px;
+  margin-bottom: 0;
+}
+.page7_midashi{
+  font-size: 20px;
+  line-height: 25px;
 }
 @media screen and (min-width: 768px) {
   p{
@@ -617,16 +715,20 @@ margin-bottom: 40px;
     line-height: 30px;
     font-weight: bold;
   }
+  .footer_class{
+    width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .footer_info{
     background-image: url(../images/pc_footer_wave.png);
     background-repeat: no-repeat;
     text-align: left;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
   }
   .about_footer{
     font-size: 13px;
     line-height: 14px;
-    color: #FFFFFF;
     padding-top: 64px;
   }
   .page_back1{
@@ -962,6 +1064,9 @@ line-height: 18px;
 .company_info{
   width: 720px;
 }
+.company_info .col-12{
+  padding: 0 22px 0 0;
+}
 .kigyou_info{
   font-size: 24px;
 }
@@ -972,6 +1077,7 @@ line-height: 18px;
 .company_info1 td{
   font-size: 16px;
   line-height: 30px;
+  width:500px;
 }
 .company_info1 th{
   font-size: 16px;
@@ -981,7 +1087,7 @@ line-height: 18px;
   position: relative;
   width: 100%;
   padding-top: 28%; /* = height ÷ width × 100 */
-  margin: 12px 0;
+  margin: 16px 0;
 }
 .iframe-wrap iframe {
   position: absolute;
@@ -994,13 +1100,44 @@ line-height: 18px;
   border-right: solid 1px;
   border-bottom-color: #707070;
 }
-
+.access_info{
+  font-size: 13px;
+  line-height: 20px;
+}
+.torihiki{
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.torihiki td{
+  width:400px;
+}
+.enkaku_midashi{
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 145px
+}
+.enkaku p{
+  font-size: 16px;
+  line-height: 50px;
+  margin: 0;
+}
+.enkaku span{
+  color: #B70000;
+}
+.page5_last{
+  padding: 104px 0;
+  color: #000000;
+}
+.top_topic6 img{
+  margin: 75px 0 68px;
+  height:186px;
+}
 .pc_page6{
 margin-left: auto;
 margin-right: auto;
 background-color: #FFFFFF;
 max-width: 1088px;
-padding:78px 0 27px;
 }
 .page6_news{
 max-width: 905px;
@@ -1008,8 +1145,8 @@ margin-left: auto;
 margin-right: auto;
 }
 .page6_news .news_image{
-  width: 169px;
-  margin-left: 45px;
+  max-width: 169px;
+  height:107px;
 }
 .page6_news .row{
   padding-bottom: 12px;
@@ -1017,9 +1154,14 @@ margin-right: auto;
   border-bottom: solid 1px;
   border-bottom-color: #707070;
 }
+
+.page6_news .col-4{
+  padding-left: 50px;
+}
 .page6_ichiran{
   font-size: 18px;
   line-height: 29px;
+  padding-top: 76px;
 }
 .days{
   font-size: 14px;
@@ -1028,19 +1170,15 @@ margin-right: auto;
 .pc_page6 .news_topic{
   line-height: 25px;
 }
-.saisihn{
-  font-size: 12px;
-  line-height: 29px;
-  color: #707070;
-  text-align: right;
-}
 .page6_next{
   color: #000000;
 }
 .page6_next p{
   text-align: right;
+  padding-bottom: 40px;
 }
 .pc_page7{
+text-align: left;
 margin-left: auto;
 margin-right: auto;
 background-color: #FFFFFF;
@@ -1052,9 +1190,12 @@ max-width: 905px;
 margin-left: auto;
 margin-right: auto;
 }
+.page7_news .days{
+  font-size: 14px;
+}
 .page7_news .news_image{
   width: 483px;
-  margin: 24px 0;
+  margin: 20px 0 28px 0;
 }
 .page7_back{
   color: #000000;
