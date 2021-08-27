@@ -67,6 +67,27 @@ p {
   background-attachment: fixed;
   text-align: center;
 }
+.contactform_body{
+  background-image: url(../images/background_image7.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.Contactconfirm_body{
+  background-image: url(../images/background_image7.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.contactfinished_body{
+  background-image: url(../images/background_image7.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
 .about_footer{
   font-size: 11px;
   line-height: 14px;
@@ -224,15 +245,9 @@ p {
   width: 344px;
   height:160px;
 }
-.top_topic10{
-  background-image: url(../images/background_image7.png);
-  background-size: 100%;
-  background-position: center;
-  text-align: center;
-}
 .top_topic10 img{
-  margin: 75px 0 68px;
-  height:186px;
+  margin: 48px 0 75px;
+  height:146px;
 }
 .page2_jigyou{
   text-align: center;
@@ -610,10 +625,9 @@ margin-bottom: 40px;
 }
 .page5_last{
   padding: 80px 0 46px 0;
-}
-.page5_last a{
   color: #000000;
 }
+
 .pc_page6{
 margin-left: auto;
 margin-right: auto;
@@ -707,7 +721,7 @@ max-width: 343px;
 padding:46px 20px 57px;
 }
 .page8_recruit{
-  text-align: left;
+text-align: left;
 margin-left: auto;
 margin-right: auto;
 }
@@ -763,6 +777,144 @@ padding-bottom: 34px;
   font-size: 13px;
   line-height: 20px;
 }
+.pc_page10{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 352px;
+padding:46px 0 36px;
+}
+.page10_contact{
+max-width: 302px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+.page10_contact span{
+  font-size: 11px;
+  line-height: 18px;
+  color: #B70000;
+}
+.page10_midashi{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 26px;
+}
+.inline{
+  margin:54px 0 27px;
+}
+.page10_contact .select{
+  width: 302px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.page10_contact .small_form{
+  width:302px;
+  height:50px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.page10_contact .big_form{
+  width:302px;
+  height:214px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+}
+.page10_red{
+  margin-bottom: 22px;
+  font-size: 14px;
+  color:#B70000;
+}
+.page10_contact .button{
+  background: #0637A7;
+  color: #FFFFFF;
+  width: 141px;
+  height:39px;
+  border: 0;
+}
+.pc_page11{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 343px;
+padding:52px 0 51px;
+text-align: left;
+}
+.page11_contact{
+padding-left: 18px;
+padding-right: 18px;
+margin-left: auto;
+margin-right: auto;
+}
+.page11_contact .kakunin{
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+input.radio11 {
+  transform: scale(2);
+}
+.page11_radio{
+  margin-left:10px;
+  margin-bottom: 30px;
+}
+.page11_radio span{
+  font-size: 18px;
+  line-height: 25px;
+}
+.page11_red{
+  font-size: 16px;
+  color: #B70000;
+  line-height: 30px;
+  margin-bottom:0;
+}
+.page11_main{
+  font-size: 18px;
+  line-height: 30px;
+}
+.page11_button_l{
+width: 96px;
+height: 45px;
+margin-right: 66px;
+margin-top: 44px;
+background-color: #FFFFFF;
+}
+.page11_button_r{
+  border:none;
+  background: #0637A7;
+  color: #FFFFFF;
+  width:138px;
+  height: 45px;
+}
+.toiawase11{
+  font-size: 16px;
+  line-height: 30px;
+}
+.pc_page12{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+max-width: 340px;
+padding:52px 20px 51px;
+}
+.finished{
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 47px;
+}
+.page12_backtop{
+  margin-top: 31px;
+}
+.page12_backtop p{
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
 @media screen and (min-width: 768px) {
   p{
     font-size: 16px;
@@ -814,8 +966,6 @@ padding-bottom: 34px;
 height: 230px;
 }
 .pc_page1{
-  margin-left: auto;
-  margin-right: auto;
   width: 1088px;
 }
 .page1_red{
@@ -903,25 +1053,14 @@ line-height: 18px;
 }
 .zisseki h5{
   font-size: 14px;
-  display:block;
   height:36px;
   margin:1em 0;
   margin-bottom: 30px;
-  color: #FFFFFF;
-  background-color: #102148;
   letter-spacing: 0.3px;
-  line-height:18px;
   padding-top: 10px;
-  text-decoration:none;
-  text-align:center;
 }
 .kaihatsu{
-  color: #FFFFFF;
-  background-color: #102148;
-  text-align: center;
   margin-top: 107px;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 66px;
   padding-top: 72px;
 }
@@ -936,13 +1075,7 @@ line-height: 18px;
   line-height:29px;
 }
 .business_ex{
-  width: 130px;
-  font-size: 16px;
-  line-height: 30px;
   margin-top: 62px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: solid 1px #FFF;
 }
 .kaihatsu_img{
   margin-top: 16px;
@@ -958,9 +1091,6 @@ line-height: 18px;
   height:525px;
 }
 .pc_page3{
-  width: 100%;
-  background-color: #B70000;
-  text-align: center;
   padding-top: 68px;
   padding-bottom: 102px;
 }
@@ -997,24 +1127,15 @@ line-height: 18px;
 .zinzai_main{
   font-size: 20px;
   line-height: 35px;
-  color: #B70000;
 }
 .ouboyoko{
   padding-top: 86px;
   padding-bottom: 67px;
-  background-color: #FFFFFF;
   width: 1088px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .topic3{
   font-size: 24px;
   line-height: 29px;
-}
-.ouboyoko table{
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: bold;
 }
 .ouboyoko table td {
   padding: 20px 0 22px 16px;
@@ -1050,7 +1171,6 @@ line-height: 18px;
    line-height: 29px;
  }
  .yakusyoku{
-   color:#B70000;
    font-size: 16px;
  }
  .nyusya{
@@ -1074,7 +1194,6 @@ line-height: 18px;
  }
  .bassui{
    padding: 0 92px;
-   text-align: left;
  }
  .page4_midashi1{
    padding: 65px 0 48px 0;
@@ -1082,7 +1201,6 @@ line-height: 18px;
  }
  .hitokoto{
  padding: 40px 182px;
- text-align: left;
  margin-top: 66px;
  margin-bottom: 62px;
  }
@@ -1114,7 +1232,6 @@ line-height: 18px;
   margin-top: 150px;
   height:526px;
 }
-
 .company_info{
   width: 720px;
 }
@@ -1123,10 +1240,6 @@ line-height: 18px;
 }
 .kigyou_info{
   font-size: 24px;
-}
-.company_info .red{
-  font-size: 20px;
-  color:#B70000;
 }
 .company_info1 td{
   font-size: 16px;
@@ -1176,27 +1289,18 @@ line-height: 18px;
   line-height: 50px;
   margin: 0;
 }
-.enkaku span{
-  color: #B70000;
-}
 .page5_last{
   padding: 104px 0;
-  color: #000000;
 }
 .top_topic6 img{
   margin: 75px 0 68px;
   height:186px;
 }
 .pc_page6{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 }
 .page6_news{
 max-width: 905px;
-margin-left: auto;
-margin-right: auto;
 }
 .page6_news .news_image{
   max-width: 169px;
@@ -1205,8 +1309,6 @@ margin-right: auto;
 .page6_news .row{
   padding-bottom: 12px;
   margin-bottom: 15px;
-  border-bottom: solid 1px;
-  border-bottom-color: #707070;
 }
 
 .page6_news .col-4{
@@ -1224,25 +1326,15 @@ margin-right: auto;
 .pc_page6 .news_topic{
   line-height: 25px;
 }
-.page6_next{
-  color: #000000;
-}
 .page6_next p{
-  text-align: right;
   padding-bottom: 40px;
 }
 .pc_page7{
-text-align: left;
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 padding: 73px 0 46px;
 }
 .page7_news{
 max-width: 905px;
-margin-left: auto;
-margin-right: auto;
 }
 .page7_news .days{
   font-size: 14px;
@@ -1250,9 +1342,6 @@ margin-right: auto;
 .page7_news .news_image{
   width: 483px;
   margin: 20px 0 28px 0;
-}
-.page7_back{
-  color: #000000;
 }
 .page7_back p{
   margin-top: 57px;
@@ -1272,8 +1361,6 @@ padding:80px 0 77px;
 }
 .page8_recruit{
 max-width: 905px;
-margin-left: auto;
-margin-right: auto;
 }
 .page8_midashi{
   color:#B70000;
@@ -1308,47 +1395,40 @@ padding-bottom: 62px;
 .page9_midashi{
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
 }
 .page9_main p{
   font-size: 15px;
   line-height: 25px;
 }
+.top_topic10 img{
+  margin: 75px 0 68px;
+  height:186px;
+}
 .pc_page10{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 padding:74px 0 70px;
 }
 .page10_contact{
 max-width: 905px;
-margin-left: auto;
-margin-right: auto;
 }
 .page10_contact span{
   font-size: 12px;
-  color: #B70000;
+  line-height: 30px;
 }
 .page10_midashi{
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
   margin-top: 60px;
 }
 .inline{
-  margin:54px 0 40px 90px;
+  margin:71px 0 40px 90px;
 }
 .page10_contact .select{
   width: 536px;
-  margin-left:auto;
-  margin-right: auto;
 }
 .page10_contact .small_form{
   width:720px;
   height:38px;
-  margin-left:auto;
-  margin-right: auto;
   margin-bottom: 30px;
 }
 .form-group label{
@@ -1357,57 +1437,35 @@ margin-right: auto;
 .page10_contact .big_form{
   width:720px;
   height:214px;
-  margin-left:auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .page10_red{
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   font-size: 14px;
-  color:#B70000;
 }
 .page10_contact .button{
-  background: #0637A7;
-  color: #FFFFFF;
   width: 166px;
   height:44px;
-  border: 0;
 }
 .pc_page11{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 padding:68px 0 69px;
 }
 .page11_contact{
+padding: 0;
 max-width: 720px;
-margin-left: auto;
-margin-right: auto;
 }
 .page11_contact .kakunin{
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
   margin-bottom: 64px;
 }
 input.radio11 {
   transform: scale(2);
+}
+.page11_radio{
   margin-left:10px;
-  margin-bottom: 30px;
-}
-.page11_radio span{
-  font-size: 18px;
-  line-height: 25px;
-}
-.page11_red{
-  font-size: 16px;
-  color: #B70000;
-  line-height: 30px;
-  margin-bottom:0;
-}
-.page11_main{
-  font-size: 18px;
+  margin-bottom: 34px;
 }
 .page11_button_l{
 width: 96px;
@@ -1416,29 +1474,18 @@ margin-right: 480px;
 margin-top: 32px;
 }
 .page11_button_r{
-  border:none;
-  background: #0637A7;
-  color: #FFFFFF;
   width:138px;
   height: 45px;
 }
 .pc_page12{
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
 max-width: 1088px;
 padding:68px 0 67px;
 }
 .finished{
+  font-size: 18px;
   margin-bottom: 53px;
 }
 .page12_backtop{
   margin-top: 53px;
-}
-.page12_backtop p{
-  color: #000000;
-  margin-bottom: 0;
-  font-size: 14px;
-  line-height: 22px;
 }
 }
