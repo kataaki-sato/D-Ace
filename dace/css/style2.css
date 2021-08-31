@@ -100,6 +100,30 @@ p {
   text-align: left;
   padding-bottom: 80px;
 }
+.footer_black{
+  background-color: #000000;
+}
+.footer_img{
+  margin: 0 auto ;
+  padding: 36px 0 30px;
+}
+.footer_white{
+  width: 175px;
+  margin: 0 auto 28px;
+}
+.footer_white p{
+  text-align: left;
+  font-size: 11px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.copylight{
+  font-size: 11px;
+  line-height: 30px;
+  color: #5F5F5F;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
 .interview_footer{
   background-color: #000000;
 }
@@ -953,6 +977,37 @@ padding:52px 20px 51px;
     font-size: 13px;
     line-height: 14px;
     padding-top: 30px;
+  }
+  .pc_left{
+    text-align: left;
+  }
+  .pc_right{
+    padding-left: 190px;
+  }
+  .footer_black{
+    background-color: #000000;
+  }
+  .footer_img{
+    margin:39px 0 21px;
+    padding:0;
+  }
+  .copylight{
+    font-size: 11px;
+    line-height: 30px;
+    color: #5F5F5F;
+    text-align: left;
+    padding-bottom: 27px;
+    margin-bottom: 0;
+  }
+  .footer_white{
+    margin:28px 0 27px;
+  }
+  .footer_white p{
+    width: 207px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 30px;
+    color: #FFFFFF;
   }
   .page_back1{
     padding-bottom: 68px;
