@@ -4,7 +4,6 @@ div {
 }
 .main section .page_container {
   position: relative;
-  top: 25%;
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
@@ -46,7 +45,13 @@ width: 370px;
   /* ページ1 */
   .main section.page1 {
     background-image: url(../img/pc/image_01.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page1 > .page_container{
+    top: 42%;
   }
   .main section.page1 .scroll_down{
     margin: 100px auto 0;
@@ -62,7 +67,13 @@ width: 370px;
   /* ページ2 */
   .main section.page2 {
     background-image: url(../img/pc/image_02.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page2 > .page_container{
+    top: 20%;
   }
   .page2_textbox{
     margin-top: 31px;
@@ -85,7 +96,16 @@ width: 370px;
   /* ページ3 */
   .main section.page3 {
     background-image: url(../img/pc/image_03.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page3 > .page_container{
+    top: 15%;
+  }
+  .page3 > .page_container > h1{
+    margin-bottom: 70px;
   }
   .page3_text{
     color: #ffffff;
@@ -96,7 +116,16 @@ width: 370px;
   /* ページ4 */
   .main section.page4 {
     background-image: url(../img/pc/image_04.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page4 > .page_container > h1{
+    margin-bottom: 70px;
+  }
+  .page4 > .page_container{
+    top: 29%;
   }
   .page4_img{
     margin-top: -75px;
@@ -112,10 +141,19 @@ width: 370px;
   /* ページ5 */
   .main section.page5 {
     background-image: url(../img/pc/image_05.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page5 > .page_container > h1{
+    margin-bottom: 29px;
+  }
+  .page5 > .page_container{
+    top: 29%;
   }
   .page5_img{
-    margin-top: -75px;
+    margin-top: 50px;
   }
   .page5_subtitle{
     font-weight: bold;
@@ -138,7 +176,36 @@ width: 370px;
   /* ページ6 */
   .main section.page6 {
     background-image: url(../img/pc/image_06.png);
-    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .page6 > .page_container > h1{
+    margin-bottom: 50px;
+  }
+  .page6 > .page_container{
+    top: 42%;
+  }
+
+  .page6_btn{
+    background-color: #B70000;
+    color: #ffffff;
+    width: 265px;
+    height: 51px;
+    text-align: center;
+  }
+
+  .page6_text{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .page6_text > span{
+    font-size: 12px;
+  }
+  .page6 .formbtn{
+    margin-top: 82px;
   }
   
   
