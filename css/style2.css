@@ -1568,3 +1568,22 @@ padding:68px 0 67px;
   margin-top: 53px;
 }
 }
+
+
+
+.site-header{
+  display: flex;
+  padding: 17px 26.5px;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 3;
+}
+.site-logo img{
+  height: 41px;
+  width: auto;
+}
+.menu-icon img{
+  height: 39px;
+  width: auto;
+}
