@@ -303,12 +303,20 @@ p {
   text-align: left;
   margin-bottom: 50px;
 }
-
 .page2_text .koumoku{
   padding:0 4px;
 }
 .zisseki .row{
 padding: 0;
+}
+.zisseki .col-4{
+  padding: 0 8px;
+}
+.zisseki .col-8{
+  padding: 0 8px;
+}
+.zisseki .gijutsu{
+  margin-bottom: 26px;
 }
 .zisseki p{
   font-size: 24px;
@@ -327,6 +335,7 @@ padding: 0;
   text-align:center;
 }
 .zisseki .col-4 p{
+  width: 114px;
   font-size: 11px;
   display:block;
   height:30px;
@@ -336,17 +345,19 @@ padding: 0;
   border-radius:25px;
   text-decoration:none;
   text-align:center;
-  padding-top: 5px;
+  padding: 5px 12px 0;
 }
 .zisseki .col-8 p{
 border-bottom: solid 1px;
 margin-bottom: 9px;
+padding-bottom: 8px;
 font-size: 11px;
 line-height: 14px;
 text-align: left;
 }
 .zisseki h5{
   font-size: 11px;
+  font-weight: bold;
   display:block;
   height:32px;
   margin:1em 0;
@@ -402,6 +413,7 @@ text-align: left;
 }
 .white{
     color: #FFFFFF;
+    font-weight: bold;
 }
 .page3_daikoukai{
   background-image: url(../images/long_waves.png);
@@ -513,23 +525,31 @@ color:#FFFFFF;
 .yakusyoku{
   color:#B70000;
   font-size: 11px;
-  line-height: 20px;
+  line-height: 11px;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 .nyusya{
   font-size: 9px;
-  line-height: 20px;
+  line-height: 9px;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 8px;
 }
 .janame{
   font-size: 12px;
-  line-height: 19px;
+  line-height: 12px;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 4px;
 }
 .enname{
   font-size: 9px;
-  line-height: 20px;
+  line-height: 9px;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 35px;
   font-family: 'Montserrat';
 }
 .hatarakikata{
@@ -621,6 +641,7 @@ margin-bottom: 40px;
 }
 .company_info1 td{
   font-size: 14px;
+  font-weight: bold;
   line-height: 25px;
   width: 221px;
 }
@@ -651,6 +672,7 @@ margin-bottom: 40px;
 }
 .torihiki td{
   width:176px;
+  font-weight: bold;
 }
 .enkaku_midashi{
   font-size: 24px;
@@ -1114,6 +1136,9 @@ margin-right: 92px;
 .zisseki p{
   font-size: 24px;
 }
+.zisseki .gijutsu{
+  margin-bottom: 91px;
+}
 .zisseki .col-4 .first_topic{
   font-size: 14px;
   height:36px;
@@ -1122,14 +1147,17 @@ margin-right: 92px;
   padding-top: 7px;
 }
 .zisseki .col-4 p{
+  width: 261px;
   font-size: 14px;
   height:40px;
   margin:1em 0;
   padding-top: 7px;
 }
 .zisseki .col-8 p{
-font-size: 13px;
-line-height: 18px;
+  margin-bottom: 28px;
+  padding-bottom: 14px;
+  font-size: 13px;
+  line-height: 18px;
 }
 .zisseki h5{
   font-size: 14px;
@@ -1258,15 +1286,23 @@ line-height: 18px;
  }
  .yakusyoku{
    font-size: 16px;
+   line-height: 16px;
+   padding-bottom: 6px;
  }
  .nyusya{
    font-size: 13px;
+   line-height: 13px;
+   padding-bottom: 10px;
  }
  .janame{
    font-size: 18px;
+   line-height: 18px;
+   padding-bottom: 6px;
  }
  .enname{
    font-size: 13px;
+   line-height: 13px;
+   padding-bottom: 0;
  }
  .toiawase3{
    margin: 80px 0 62px 0;
