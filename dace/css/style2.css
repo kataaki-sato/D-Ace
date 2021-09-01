@@ -237,6 +237,7 @@ p {
 .Business{
     margin-top: 75px;
 }
+
 .top_topic3 img{
   text-align: center;
   height:145px;
@@ -435,6 +436,9 @@ color:#FFFFFF;
   margin-left: auto;
   margin-right: auto;
 }
+.zinzai img{
+  margin: 0;
+}
 .zinzai_main{
   font-size: 16px;
   line-height: 25px;
@@ -443,6 +447,7 @@ color:#FFFFFF;
 .topic3{
   font-size: 20px;
   line-height: 25px;
+  margin-bottom: 50px;
 }
 .ouboyoko{
   margin-top: 40px;
@@ -1064,6 +1069,9 @@ padding-right: 20px;
 }
 .order2{
   order: 1;
+  padding-right: 0;
+  padding-left: 40px;
+
 }
 .order22{
   padding-left: 40px;
@@ -1196,12 +1204,14 @@ line-height: 18px;
 .zinzai{
   margin: 45px auto 80px auto;
   width: 1088px;
-  padding-top: 86px;
+  padding-top: 80px;
   padding-bottom: 77px;
 }
 .zinzai_main{
   font-size: 20px;
   line-height: 35px;
+  margin-top: 60px;
+  padding: 0;
 }
 .ouboyoko{
   padding-top: 86px;
@@ -1211,6 +1221,7 @@ line-height: 18px;
 .topic3{
   font-size: 24px;
   line-height: 29px;
+  margin-bottom: 80px;
 }
 .ouboyoko table td {
   padding: 20px 0 22px 16px;
