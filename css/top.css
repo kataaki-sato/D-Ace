@@ -15,31 +15,12 @@ div {
 /* 背景三角形 */
 .test{
   position: fixed;
-left: 50%;
-top: 150px;
-margin-left: -185px;
-height: 370px;
-width: 370px;
+  left: 50%;
+  top: 150px;
+  margin-left: -185px;
+  height: 370px;
+  width: 370px;
 }
-
-
-  /* ヘッダー */
-  .site-header{
-    display: flex;
-    padding: 17px 26.5px;
-    position: fixed;
-    justify-content: space-between;
-    width: 100%;
-    z-index: 3;
-  }
-  .site-logo img{
-    height: 41px;
-    width: auto;
-  }
-  .menu-icon img{
-    height: 39px;
-    width: auto;
-  }
 
   /* 共通ページ */
   .side_menu{
@@ -58,7 +39,7 @@ width: 370px;
 
   /* ページ1 */
   .main section.page1 {
-    background-image: url(../img/pc/image_01.png);
+    background-image: url(../images/pc/image_01.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,12 +56,11 @@ width: 370px;
     top: 57%;
     max-width: 898px;
     z-index: 3;
-    text-align: left;
   }
 
   /* ページ2 */
   .main section.page2 {
-    background-image: url(../img/pc/image_02.png);
+    background-image: url(../images/pc/image_02.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +89,7 @@ width: 370px;
 
   /* ページ3 */
   .main section.page3 {
-    background-image: url(../img/pc/image_03.png);
+    background-image: url(../images/pc/image_03.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +109,7 @@ width: 370px;
 
   /* ページ4 */
   .main section.page4 {
-    background-image: url(../img/pc/image_04.png);
+    background-image: url(../images/pc/image_04.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +134,7 @@ width: 370px;
 
   /* ページ5 */
   .main section.page5 {
-    background-image: url(../img/pc/image_05.png);
+    background-image: url(../images/pc/image_05.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +169,7 @@ width: 370px;
 
   /* ページ6 */
   .main section.page6 {
-    background-image: url(../img/pc/image_06.png);
+    background-image: url(../images/pc/image_06.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
