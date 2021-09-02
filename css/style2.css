@@ -15,7 +15,7 @@ p {
   font-weight: bold;
 }
 .aboutus_body{
-  background-image: url(../images/background_image1.png);
+  background-image: url(../images/aboutus/background_image1.png);
   background-size: cover;
   background-position: 80%;
   background-repeat:no-repeat;
@@ -23,7 +23,7 @@ p {
   text-align: center;
 }
 .business_body{
-  background-image: url(../images/background_image2.png);
+  background-image: url(../images/business/background_image2.png);
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -31,7 +31,7 @@ p {
   text-align: center;
 }
 .employment_body{
-  background-image: url(../images/background_image3.png);
+  background-image: url(../images/employment/background_image3.png);
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -39,55 +39,35 @@ p {
   text-align: center;
 }
 .companyinfo_body{
-  background-image: url(../images/background_image4.png);
+  background-image: url(../images/companyinfo/background_image4.png);
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
-.newslist_body{
-  background-image: url(../images/background_image5.png);
+.news_body{
+  background-image: url(../images/news/background_image5.png);
   background-position: top;
   background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
-}
-.newspage_body{
-    background-image: url(../images/background_image5.png);
-    background-position: top;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    text-align: center;
 }
 .partnerfreelance_body{
-  background-image: url(../images/background_image6.png);
+  background-image: url(../images/partnerfreelance/background_image6.png);
   background-position: top;
   background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
-.contactform_body{
-  background-image: url(../images/background_image7.png);
+.contact_body{
+  background-image: url(../images/contact/background_image7.png);
   background-position: top;
   background-repeat:no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
-.Contactconfirm_body{
-  background-image: url(../images/background_image7.png);
-  background-position: top;
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-  text-align: center;
-}
-.contactfinished_body{
-  background-image: url(../images/background_image7.png);
-  background-position: top;
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-  text-align: center;
-}
+
 .about_footer{
   font-size: 11px;
   line-height: 14px;
@@ -95,13 +75,14 @@ p {
   margin-top: 50px;
 }
 .footer_info{
-  background-image: url(../images/sp_footer_wave.png);
+  background-image: url(../images/common/sp_footer_wave.png);
   background-repeat: no-repeat;
   text-align: left;
   padding-bottom: 80px;
 }
 .footer_black{
   background-color: #000000;
+  text-align: center;
 }
 .footer_img{
   margin: 0 auto ;
@@ -228,13 +209,13 @@ p {
   text-align: center;
   height:145px;
 }
-.top_topic2 .Business{
+.top_topic2 .business{
   height:146px;
 }
 .top_topic2 .business_top{
   height:263px;
 }
-.Business{
+.business{
     margin-top: 75px;
 }
 
@@ -248,7 +229,7 @@ p {
 .top_topic3 .employ_top{
   height:263px;
 }
-.Employment{
+.employment{
   margin-top: 75px;
 }
 .top_topic4{
@@ -406,7 +387,7 @@ text-align: left;
   padding-top:15px;
   margin-bottom: 25px;
   background-color: #62A7E2;
-  background-image: url(../images/yazirusi.svg);
+  background-image: url(../images/common/yazirusi.svg);
   background-repeat: no-repeat;
   background-position: 90% 50%;
   text-decoration: none;
@@ -416,7 +397,7 @@ text-align: left;
     font-weight: bold;
 }
 .page3_daikoukai{
-  background-image: url(../images/long_waves.png);
+  background-image: url(../images/common/long_waves.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -811,7 +792,7 @@ margin-right: auto;
   margin: 0 auto;
   padding-top: 8px;
   background-color: #B70000;
-  background-image: url(../images/mail_logo.svg);
+  background-image: url(../images/common/mail_logo.svg);
   background-repeat: no-repeat;
   background-position: 10% 50%;
   text-decoration: none;
@@ -995,7 +976,7 @@ padding:52px 20px 51px;
     margin-right: auto;
   }
   .footer_info{
-    background-image: url(../images/pc_footer_wave.png);
+    background-image: url(../images/common/pc_footer_wave.png);
     background-repeat: no-repeat;
     text-align: left;
     padding-bottom: 80px;
@@ -1010,9 +991,6 @@ padding:52px 20px 51px;
   }
   .pc_right{
     padding-left: 190px;
-  }
-  .footer_black{
-    background-color: #000000;
   }
   .footer_img{
     margin:39px 0 21px;
@@ -1101,7 +1079,7 @@ padding-right: 20px;
 .top_topic2 img{
   margin-top: 178px;
 }
-.top_topic2 .Business{
+.top_topic2 .business{
   height:283px;
 }
 .top_topic2 .business_top{
@@ -1192,7 +1170,7 @@ margin-right: 92px;
 .top_topic3 img{
   margin-top: 178px;
 }
-.top_topic3 .Employment{
+.top_topic3 .employment{
   height:283px;
 }
 .top_topic3 .employ_top{
@@ -1203,7 +1181,7 @@ margin-right: 92px;
   padding-bottom: 102px;
 }
 .page3_daikoukai{
-  background-image: url(../images/long_waves.png);
+  background-image: url(../images/common/long_waves.png);
   background-repeat: no-repeat;
   background-position: 80%;
   text-align: center;
