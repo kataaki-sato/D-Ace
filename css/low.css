@@ -75,7 +75,7 @@ p {
   margin-top: 50px;
 }
 .footer_info{
-  background-image: url(../images/common/sp_footer_wave.png);
+  background-image: url(../images/common_lower/sp_footer_wave.png);
   background-repeat: no-repeat;
   text-align: left;
   padding-bottom: 80px;
@@ -114,7 +114,7 @@ p {
   width: 358px;
 }
 .top_topic1{
-  margin-top: 116px;
+  padding-top: 123px;
 }
 .top_topic1 img{
   text-align: center;
@@ -250,11 +250,10 @@ p {
   height:186px;
 }
 .top_topic8{
-
+padding: 48px 0 75px;
 }
 .top_topic8 img{
-  margin: 48px auto 61px;
-  width: 344px;
+  margin: 0 auto;
   height:160px;
 }
 .top_topic10 img{
@@ -301,6 +300,7 @@ padding: 0;
 }
 .zisseki p{
   font-size: 24px;
+  margin-bottom: 30px;
 }
 .zisseki .col-4 .first_topic{
   font-size: 11px;
@@ -387,7 +387,7 @@ text-align: left;
   padding-top:15px;
   margin-bottom: 25px;
   background-color: #62A7E2;
-  background-image: url(../images/common/yazirusi.svg);
+  background-image: url(../images/common_lower/yazirusi.svg);
   background-repeat: no-repeat;
   background-position: 90% 50%;
   text-decoration: none;
@@ -397,7 +397,7 @@ text-align: left;
     font-weight: bold;
 }
 .page3_daikoukai{
-  background-image: url(../images/common/long_waves.png);
+  background-image: url(../images/common_lower/long_waves.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -512,6 +512,7 @@ color:#FFFFFF;
   padding-bottom: 5px;
 }
 .nyusya{
+  color: #000000;
   font-size: 9px;
   line-height: 9px;
   font-weight: bold;
@@ -519,6 +520,7 @@ color:#FFFFFF;
   padding-bottom: 8px;
 }
 .janame{
+  color: #000000;
   font-size: 12px;
   line-height: 12px;
   font-weight: bold;
@@ -526,6 +528,7 @@ color:#FFFFFF;
   padding-bottom: 4px;
 }
 .enname{
+  color: #000000;
   font-size: 9px;
   line-height: 9px;
   font-weight: bold;
@@ -584,6 +587,9 @@ margin-bottom: 40px;
   text-decoration: none;
   padding-bottom: 38px;
 }
+.page4_backtop a{
+pointer-events: none;
+}
 .page4_backtop p{
   color: #000000;
   margin-bottom: 0;
@@ -622,6 +628,7 @@ margin-bottom: 40px;
 }
 .company_info1 td{
   font-size: 14px;
+  padding-left: 12px;
   font-weight: bold;
   line-height: 25px;
   width: 221px;
@@ -689,6 +696,9 @@ margin-left: auto;
 margin-right: auto;
 text-align: left;
 }
+.page6_news .container p{
+  color: #000000;
+}
 .page6_news .news_image{
   max-width: 111px;
   height: 90px;
@@ -718,7 +728,11 @@ text-align: left;
 .pc_page6 .news_topic{
   line-height: 20px;
 }
-.saisihn{
+.listorder{
+  text-align: right;
+  margin-bottom: 25px;
+}
+.pull_order{
   font-size: 12px;
   line-height: 29px;
   color: #707070;
@@ -748,6 +762,7 @@ margin-right: auto;
   margin: 13px 0 25px 0;
 }
 .page7_news .days{
+  margin-bottom: 14px;
   font-size: 12px;
   line-height: 18px;
 }
@@ -774,10 +789,13 @@ text-align: left;
 margin-left: auto;
 margin-right: auto;
 }
+.page8_recruit .text-center{
+  margin-bottom: 40px;
+}
 .page8_midashi{
   color:#B70000;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 16px;
 }
 .page8_toiawase{
   padding-top:24px;
@@ -792,17 +810,19 @@ margin-right: auto;
   margin: 0 auto;
   padding-top: 8px;
   background-color: #B70000;
-  background-image: url(../images/common/mail_logo.svg);
+  background-image: url(../images/common_lower/mail_logo.svg);
   background-repeat: no-repeat;
   background-position: 10% 50%;
   text-decoration: none;
+}
+.pagetop_topic9{
+  padding-top: 88px;
 }
 .pc_page9{
 margin-left: auto;
 margin-right: auto;
 background-color: #FFFFFF;
 max-width: 343px;
-margin-top: 88px;
 padding:44px 18px 54px;
 }
 .page9_kitei{
@@ -819,12 +839,12 @@ padding-bottom: 34px;
 .page9_midashi{
   font-size: 16px;
   line-height: 20px;
-  color: #2A354E;
   text-align: center;
 }
 .page9_main p{
   font-size: 13px;
   line-height: 20px;
+  margin-bottom: 24px;
 }
 .pc_page10{
 margin-left: auto;
@@ -976,7 +996,7 @@ padding:52px 20px 51px;
     margin-right: auto;
   }
   .footer_info{
-    background-image: url(../images/common/pc_footer_wave.png);
+    background-image: url(../images/common_lower/pc_footer_wave.png);
     background-repeat: no-repeat;
     text-align: left;
     padding-bottom: 80px;
@@ -1032,7 +1052,7 @@ padding:52px 20px 51px;
     margin-top: 40px;
   }
   .top_topic1{
-    margin-top: 0;
+    padding-top: 0;
   }
 .top_topic1 img{
   margin-bottom: 275px;
@@ -1113,6 +1133,7 @@ margin-right: 92px;
 }
 .zisseki p{
   font-size: 24px;
+  margin-bottom: 77px;
 }
 .zisseki .gijutsu{
   margin-bottom: 91px;
@@ -1181,7 +1202,7 @@ margin-right: 92px;
   padding-bottom: 102px;
 }
 .page3_daikoukai{
-  background-image: url(../images/common/long_waves.png);
+  background-image: url(../images/common_lower/long_waves.png);
   background-repeat: no-repeat;
   background-position: 80%;
   text-align: center;
@@ -1321,6 +1342,9 @@ margin-right: 92px;
  .company_image{
    padding: 40px 17px 68px;
  }
+ .company_image .col-md-6{
+   padding: 6px;
+ }
  .pc_page5{
    width: 1088px;
   }
@@ -1346,13 +1370,13 @@ margin-right: 92px;
 }
 .company_info1 td{
   font-size: 16px;
+  padding-left: 27px;
   line-height: 30px;
   width:500px;
 }
 .company_info1 th{
   font-size: 16px;
   line-height: 30px;
-
 }
 .iframe-wrap {
   position: relative;
@@ -1403,6 +1427,9 @@ margin-right: 92px;
 .pc_page6{
 max-width: 1088px;
 }
+.page6_news .col-8{
+padding: 0;
+}
 .page6_news{
 max-width: 905px;
 }
@@ -1414,9 +1441,9 @@ max-width: 905px;
   padding-bottom: 12px;
   margin-bottom: 15px;
 }
-
 .page6_news .col-4{
-  padding-left: 50px;
+  padding-right: 0;
+  padding-left: 58px;
 }
 .page6_ichiran{
   font-size: 18px;
@@ -1448,15 +1475,16 @@ max-width: 905px;
   margin: 20px 0 28px 0;
 }
 .page7_back p{
-  margin-top: 57px;
+  margin-top: 73px;
 }
 .page7_midashi{
   font-size: 24px;
   line-height: 29px;
 }
+.top_topic8{
+  padding:  75px 0 68px;
+}
 .top_topic8 img{
-  margin: 75px auto 68px;
-  width: 784px;
   height:186px;
 }
 .pc_page8{
@@ -1466,10 +1494,13 @@ padding:80px 0 77px;
 .page8_recruit{
 max-width: 905px;
 }
+.page8_recruit .text-center{
+  margin-bottom: 64px;
+}
 .page8_midashi{
   color:#B70000;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .page8_toiawase{
   padding-top:30px;
@@ -1503,6 +1534,7 @@ padding-bottom: 62px;
 .page9_main p{
   font-size: 15px;
   line-height: 25px;
+  margin-bottom: 40px;
 }
 .top_topic10 img{
   margin: 75px 0 68px;
