@@ -5,13 +5,19 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
         <title>サイトタイトル</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style2.css">
+        <link rel="stylesheet" href="css/low.css">
+				<link rel="stylesheet" href="css/header.css" type="text/css">
         <style>
         </style>
     </head>
-  <body class="contactform_body">
+  <body>
+		<div class="contact_body">
+		<header class="site-header">
+	        <a class="site-logo" href="/"><img src="images/common_lower/logo.png" alt="D・Ace"></a>
+	        <img class="menu-icon" src="images/common_lower/menu_icon.png">
+	  </header>
 		<div class="top_topic10">
-    <img src="images/contact.png" alt="">
+    <img src="images/contact/contact.png" alt="">
 			</div>
         <div class="pc_page10">
           <div class="page10_contact">
@@ -52,17 +58,17 @@
 
 		                                                 <div class="form-group">
 		                                                <label for="exampleFormControlTextarea1">メールアドレス</label>
-		                                               <input class="form-control small_form" type="text">
+		                                               <input class="form-control small_form" type="email">
 		                                              </div>
 
 																								<div class="form-group">
 																							<label for="exampleFormControlTextarea1">お問い合わせ</label>
-																							<input class="form-control big_form" type="text">
+																							<textarea rows="10" cols="70" class="big_form"></textarea>
 																					</div>
 
 																			<div class="text-center">
 																		<p class="page10_red">全ての項目を入力してください。</p>
-																	<a href="Contact_confirm.html"><button type="button" class="button">送信内容を確認</button></a>
+																	<a href="contact_confirm.html"><button type="button" class="button">送信内容を確認</button></a>
 																</div>
 
           								  </div>
@@ -76,7 +82,7 @@
 
 																		<div class="d-md-none d-block">
 																			<div class="footer_black">
-																				<img src="images/footer_dacelogo.svg" class="footer_img">
+																				<img src="images/common_lower/footer_dacelogo.svg" class="footer_img">
 																					<div class="footer_white"><p>個人情報保護方針について<br>情報セキュリティ基本方針について<br>テレワーク勤務規程</p></div>
 																						<p class="copylight">Copyright © 2016. All Rights Reserved D・Ace Co.,Ltd.</p>
 																							</div>
@@ -87,7 +93,7 @@
 																							<div class="container">
 																						<div class="row">
 																					<div class="col-md-6 pc_left">
-																				<img src="images/footer_dacelogo.svg" class="footer_img"><br>
+																				<img src="images/common_lower/footer_dacelogo.svg" class="footer_img"><br>
 																			<p class="copylight">Copyright © 2016. All Rights Reserved D・Ace Co.,Ltd.</p>
 																		</div>
 																	<div class="col-md-6 pc_right">
@@ -97,4 +103,5 @@
 													</div>
 												</div>
 											</div>
-										</body>
+										</div>
+									</body>
