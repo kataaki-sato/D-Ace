@@ -593,6 +593,12 @@ margin-bottom: 40px;
 .page4_backtop a{
 pointer-events: none;
 }
+.page4_backtop a:hover p{
+  text-decoration: none;
+}
+.page4_backtop a:hover {
+  text-decoration: none;
+}
 .page4_backtop p{
   color: #000000;
   margin-bottom: 0;
