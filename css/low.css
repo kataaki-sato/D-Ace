@@ -249,8 +249,11 @@ p {
   margin: 48px 0 75px;
   height:186px;
 }
+.topic7_main{
+  margin-bottom: 20px;
+}
 .top_topic8{
-padding: 48px 0 75px;
+padding: 48px 0 61px;
 }
 .top_topic8 img{
   margin: 0 auto;
@@ -1459,6 +1462,9 @@ max-width: 905px;
 }
 .page6_next p{
   padding-bottom: 40px;
+}
+.topic7_main{
+  margin-bottom: 24px;
 }
 .pc_page7{
 max-width: 1088px;
