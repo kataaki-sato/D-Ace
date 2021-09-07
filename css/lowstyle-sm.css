@@ -21,7 +21,7 @@ p{
 }
 /* ここからaboutus */
 .pc_page1{
-  width: 768px;
+  width: 668px;
 }
 .top_topic1 img{
   margin-bottom: 275px;
@@ -29,7 +29,7 @@ p{
   height:230px;
 }
 .member img{
-  width: 768px;
+  width: 668px;
 }
 .page1_red{
   font-size: 20px;
@@ -59,7 +59,7 @@ p{
 
 /* ここからbusiness */
 .pc_page2{
-width: 768px;
+width: 728px;
 }
 .top_topic2 img{
   margin-top: 178px;
@@ -96,18 +96,18 @@ width: 768px;
 }
 .zinzai{
   margin: 45px auto 80px auto;
-  width: 768px;
+  width: 668px;
   padding-top: 80px;
   padding-bottom: 77px;
 }
 .ouboyoko{
   padding-top: 86px;
   padding-bottom: 67px;
-  width: 768px;
+  width: 668px;
 }
 .page3_interview{
   padding-bottom: 54px;
-  width: 768px;
+  width: 668px;
 }
 .page3_interview .row{
   margin:0 100px;
@@ -115,6 +115,8 @@ width: 768px;
 .hatarakikata{
   width: 433px;
 }
+
+/* ここからinterview */
 .page4_interview{
   width: 668px;
   margin-bottom: 72px;
@@ -129,4 +131,138 @@ margin-bottom: 62px;
 }
 .bassui{
   padding: 0 42px;
+}
+
+/* ここからcompanyinfo */
+.pc_page5{
+  width: 668px;
+}
+.top_topic5 .companyinfo_pic{
+  height:200px;
+  margin-top: 178px;
+  margin-bottom: 90px;
+}
+.top_topic5 .companyinfo_top{
+  height:350px;
+  margin-top: 178px;
+  margin-bottom: 90px;
+}
+.company_info{
+  width: 520px;
+}
+.company_info .col-12{
+  padding: 0 22px 0 0;
+}
+.company_info1 td{
+  font-size: 16px;
+  padding-left: 27px;
+  line-height: 30px;
+  width:300px;
+}
+.company_info1 th{
+  font-size: 16px;
+  line-height: 30px;
+}
+.border-r{
+  border-right: solid 1px;
+  border-bottom-color: #707070;
+}
+
+/* ここからnewslist */
+.pc_page6{
+max-width: 668px;
+}
+.page6_news{
+max-width: 608px;
+}
+.page6_news .news_image{
+  max-width: 150px;
+}
+.page6_news .row{
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+.page6_news .col-4{
+  padding-right: 0;
+  padding-left: 8px;
+}
+
+/* ここからnewspage */
+.pc_page7{
+  max-width: 668px;
+  padding: 53px 0 36px
+}
+.page7_news{
+  max-width: 520px;
+}
+
+/* ここからPrtner-Freelance */
+.pc_page8{
+max-width: 668px;
+padding:80px 0 77px;
+}
+.page8_recruit{
+max-width: 520px;
+}
+.page8_recruit .text-center{
+  margin-bottom: 64px;
+}
+
+/* ここからテレワーク */
+.pc_page9{
+  max-width: 668px;
+  margin-top: 115px;
+  padding:80px 0 92px;
+}
+.page9_kitei{
+  max-width: 520px;
+}
+
+/* ここからcontactform */
+.top_topic10 img{
+  margin: 75px 0 68px;
+  height:156px;
+}
+.pc_page10{
+  max-width: 668px;
+  padding:74px 0 70px;
+}
+.page10_contact{
+max-width: 520px;
+}
+.page10_contact span{
+  font-size: 16px;
+  line-height: 30px;
+}
+.page10_contact .big_form{
+  margin-bottom: 30px;
+  margin-left: 65px;
+}
+.form-group label{
+  margin-left: 90px;
+}
+
+/* ここからcontactconfirm */
+.pc_page11{
+max-width: 668px;
+padding:68px 0 69px;
+}
+.page11_contact{
+padding: 0;
+max-width: 520px;
+}
+.page11_contact .kakunin{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 64px;
+}
+.page11_button_l{
+margin-right: 280px;
+margin-top: 32px;
+}
+
+/* ここからcontactfibished */
+.pc_page12{
+max-width: 668px;
+padding:68px 0 67px;
 }
