@@ -234,6 +234,9 @@ max-width: 520px;
   font-size: 16px;
   line-height: 30px;
 }
+.page10_contact .small_form{
+  margin-left: 110px;
+}
 .page10_contact .big_form{
   margin-bottom: 30px;
   margin-left: 110px;
