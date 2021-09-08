@@ -1,28 +1,14 @@
 @charset "UTF-8";
-/* 共通 */
-body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  font-family: "ヒラギノ角ゴ Pro W6" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* スマホcss */
 .main section .page_container {
   position: relative;
   margin: 0 auto 0;
-  max-width: 950px;
+  max-width: 1000px;
   z-index: 3;
   text-align: center;
 }
 
 .more_button {
-  margin-top: 60px;
+  margin-top: 39px;
 }
 
 /* 背景三角形 */
@@ -35,20 +21,26 @@ img {
   width: 370px;
 }
 
-/* 共通ページ */
+/* サイドメニュー */
 .side_menu {
-  position: absolute;
-  top: 260px;
-  right: 0;
-  width: 100%;
+  right:0;
+  position:fixed;
+  top:35%;
+  z-index:100;
+  padding:1rem;
   text-align: right;
-  margin-right: 36px;
 }
-
-.side_menu a {
+.side_menu a{
   color: #FFFFFF;
   font-size: 14px;
-  line-height: 29px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.side_menu li{
+  padding-top: 40px;
+}
+.side_menu li:first-child{
+  padding-top: 0;
 }
 
 /* ページ1 */
@@ -64,19 +56,19 @@ img {
   top: 42%;
 }
 
+.page1_titlebox {
+  margin: 0 auto;
+}
+
 .main section.page1 .scroll_down {
-  margin: 80px auto 0;
+  margin: 100px auto 0;
 }
 
 .page_container_fotter {
   position: absolute;
   bottom: -35%;
+  left: -34%;
   z-index: 3;
-}
-
-.page_container_fotter img {
-  width: 100%;
-  height: 29px;
 }
 
 /* ページ2 */
@@ -92,28 +84,27 @@ img {
   top: 20%;
 }
 
-.page2_titleimg {
-  width: 140px;
-  height: 113px;
-  margin-bottom: 36px;
+.page2_titleimg{
+  width: 215px;
+  height: 172px;
+  margin-bottom: 31px;
 }
 
 .page2_textbox {
   margin-top: 31px;
-  line-height: 25px;
 }
 
 .page2_subtitle {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 23px;
 }
 
 .page2_text {
   color: #ffffff;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .page2_text + .page2_text {
@@ -130,19 +121,23 @@ img {
 }
 
 .page3 > .page_container {
-  top: 15%;
+  top: 10%;
 }
 
 .page3_titleimg {
-  width: 136px;
-  height: 120px;
-  margin-bottom: 58px;
+  width: 208px;
+  height: 186px;
+  margin-bottom: 69px;
+}
+
+.page3_titleimg {
+  margin-bottom: 70px;
 }
 
 .page3_text {
   color: #ffffff;
-  font-size: 12px;
-  margin-top: 5px;
+  font-size: 14px;
+  margin-top: 12px;
 }
 
 /* ページ4 */
@@ -155,26 +150,26 @@ img {
 }
 
 .page4 > .page_container {
-  top: 20%;
-}
-
-.page4_titleimg {
-  width: 194px;
-  height: 120px;
-  margin: 0 auto 35px;
+  top: 13%;
 }
 
 .page4_mainimg {
-  width: 215px;
-  height: 156px;
-  margin: 0 auto 35px;
+  width: 498px;
+  height: 361px;
+}
+
+.page4_titleimg {
+  width: 298px;
+  height: 178px;
 }
 
 .page4_text {
   color: #ffffff;
-  font-size: 12px;
-  text-align: left;
+  font-size: 16px;
+  margin-top: 37px;
   font-weight: bold;
+  text-align: left;
+  line-height: 30px;
 }
 
 /* ページ5 */
@@ -186,37 +181,41 @@ img {
   background-color: #464646;
 }
 
-.page5 > .page_container > h1 {
-  margin-bottom: 29px;
-}
-
 .page5 > .page_container {
-  top: 20%;
-}
-
-.page5_titleimg {
-  width: 212px;
-  height: 98px;
-  margin: 0 auto 32px;
+  top: 10%;
 }
 
 .page5_img {
-  width: 157px;
-  height: 179px;
-  margin: 0 auto 30px;
+  width: 338px;
+  height: 385px;
+}
+
+.page5_titleimg {
+  width: 326px;
+  height: 162px;
 }
 
 .page5_subtitle {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
   text-align: left;
+  margin-top: 29px;
+  margin-bottom: 12px;
 }
 
 .page5_textbox > div {
   text-align: left;
   color: #ffffff;
-  font-size: 12px;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.page5_text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 37px;
+  font-weight: bold;
 }
 
 /* ページ6 */
@@ -229,13 +228,13 @@ img {
 }
 
 .page6 > .page_container {
-  top: 20%;
+  top: 30%;
 }
 
 .page6_titleimg {
-  width: 130px;
-  height: 120px;
-  margin-bottom: 94px;
+  width: 186px;
+  height: 145px;
+  margin-bottom: 50px;
 }
 
 .page6_btn {
@@ -248,8 +247,9 @@ img {
 
 .page6_text {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
+  line-height: 30px;
 }
 
 .page6_text > span {
@@ -257,6 +257,6 @@ img {
 }
 
 .page6 .formbtn {
-  margin-top: 65px;
+  margin-top: 82px;
 }
-/*# sourceMappingURL=top.css.map */
+/*# sourceMappingURL=top-sm.min.css.map */

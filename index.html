@@ -7,66 +7,73 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="css/onepage-scroll.css" rel="stylesheet" type="text/css">
-  <link href="css/top.css" rel="stylesheet" type="text/css">
   <link href="css/header.css" rel="stylesheet" type="text/css">
+  <link href="css/top.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/top.min.css" media="screen and (min-width:575px)">
+  <link rel="stylesheet" href="css/top-sm.min.css" media="screen and (min-width:576px)">
+  <link rel="stylesheet" href="css/top-md.min.css" media="screen and (min-width:768px)">
+  <link rel="stylesheet" href="css/top-lg.min.css" media="screen and (min-width:992px)">
+  <link rel="stylesheet" href="css/top-xl.min.css" media="screen and (min-width:1200px)">
+  <link rel="stylesheet" href="css/top-2xl.min.css" media="screen and (min-width:1500px)">
 </head>
 
 <body>
-    <header class="site-header">
-        <a class="site-logo" href="/"><img src="images/pc/logo.png" alt="D・Ace"></a>
-        <img class="menu-icon" src="images/pc/menu_icon.png">
-    </header>
-  <div class="main">
-    <section class="page1">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
+  <header class="site-header">
+      <a class="site-logo" href="/"><img src="images/pc/logo.png" alt="D・Ace"></a>
+      <input type="checkbox" id="menu-checkbox">
+      <label for="menu-checkbox">
+        <div class="button"><img class="menu-icon" src="images/pc/menu_icon.png"></div>
+      </label>
+      <nav class="menu">
+          <li class="link1">株式会社D・Aceについて<br><span class="menu_stext">About Us</span></li>
+          <li class="link2">事業内容・実績<br><span class="menu_stext">Business</span></li>
+          <li class="link3">リクルート<br><span class="menu_stext">Employment</span></li>
+          <li class="link4">企業情報・沿革<br><span class="menu_stext">Company Info</span></li>
+          <li class="link5">お問い合わせ<br><span class="menu_stext">Contact</span></li>
+          <li class="link6">パートナー企業・フリーランス募集<br><span class="menu_stext">Partner/Freelancer Recruitment</span></li>
+          <li class="link7">ニュース・お知らせ<br><span class="menu_stext">NEWS</span></li>
+      </nav>
+  </header>
+  <!-- bootstrapヘッダー -->
+  <!-- <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
       </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div> -->
+  <ul class="side_menu d-none d-xl-block">
+    <li><a href="#page2">About Us</a></li>
+    <li><a href="#page3">Business</a></li>
+    <li><a href="#page4">Employment</a></li>
+    <li><a href="#page5">Company Info</a></li>
+    <li><a href="#page6">Contact</a></li>
+  </ul>
+  <div class="main">
+    <section class="page1" id="page1">
         <div class="page_container">
           <div class="container">
-            <div class="row">
-              <h1><img src="images/pc/01_top_1_copy.png" alt="誰よりも自由に、ITの大海原を進む。 Where the story begins, D・Ace"></h1>
+            <div class="page1_titlebox">
+              <h1 class="d-none d-xl-block"><img src="images/pc/01_top_1_copy.png" alt="誰よりも自由に、ITの大海原を進む。 Where the story begins, D・Ace"></h1>
+              <h1 class="d-block d-xl-none"><img src="images/sp/01_top_1_copy.png" alt="誰よりも自由に、ITの大海原を進む。 Where the story begins, D・Ace"></h1>
             </div>
-            <div class="page_container_fotter">
-              <img class="scroll_down" src="images/pc/scroll_down.png" alt="Scroll down">
-                <ol>
-
-                </ol>
-                <img class="ship_wave" src="images/pc/ship_wave.png">
-            </div>
+            <img class="scroll_down" src="images/pc/scroll_down.png" alt="Scroll down">
+          </div>
+          <div class="page_container_fotter">
+            <img class="ship_wave" src="images/pc/ship_wave.png">
           </div>
         </div>
     </section>
-    <section class="page2">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
-      </div>
+    <section class="page2" id="page2">
       <div class="page_container">
         <div class="container">
-          <h1><img src="images/pc/title_1.png" alt="D・Aceについて About Us"></h1>
+          <h1><img class="page2_titleimg" src="images/pc/title_1.png" alt="D・Aceについて About Us"></h1>
           <div class="page2_textbox">
             <h2 class="page2_subtitle">
               誰よりも自由に、ITの大海原を進む。
@@ -89,47 +96,32 @@
         </div>
       </div>
     </section>
-    <section class="page3">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
-      </div>
+    <section class="page3" id="page3">
       <div class="page_container">
         <div class="container">
-          <h1><img src="images/pc/title_2.png" alt="事業内容 Business"></h1>
+          <h1><img class="page3_titleimg" src="images/pc/title_2.png" alt="事業内容 Business"></h1>
           <div class="row">
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_01.png">
               <p class="page3_text">組込系ソフトウェアの設計・開発</p>
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_02.png">
               <p class="page3_text">WEB系ソフトウェアの設計・開発</p>
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_03.png">
               <p class="page3_text">スマホアプリケーションの設計・開発</p>
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_04.png">
               <p class="page3_text">ゲームの設計・開発</p>
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_05.png">
               <p class="page3_text">その他 システム開発に関する設計・開発・品質管理・ディレクション</p>
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-xl-2 col-4">
               <img src="images/pc/img_06.png">
               <p class="page3_text">コンピュータ利用に関するコンサルテーション</p>
             </div>
@@ -138,30 +130,16 @@
         </div>
       </div>
     </section>
-    <section class="page4">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
-      </div>
+    <section class="page4" id="page4">
       <div class="page_container">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7 col-sm-12">
-              <img src="images/pc/img_07.png">
+            <div class="col-xl-7 col-sm-12 col-12">
+              <h1><img class="page4_titleimg d-block d-xl-none" src="images/pc/title_3.png" alt="リクルート Employment"></h1>
+              <img class="page4_mainimg" src="images/pc/img_07.png">
             </div>
-            <div class="col-lg-5 col-sm-12">
-              <h1><img class="page4_img" src="images/pc/title_3.png" alt="リクルート Employment"></h1>
+            <div class="col-xl-5 col-sm-12 col-12">
+              <h1><img class="page4_img page4_titleimg d-none d-xl-block" src="images/pc/title_3.png" alt="リクルート Employment"></h1>
               <p class="page4_text">
                 想いが人を突き動かし、楽しみながら懸命に頑張り続けた者が「仲間」「笑顔」「自由」を手に入れる。<br>
                 そこにある「揺るがない信念の象徴」がD・Aceの『海賊旗』！<br>
@@ -176,68 +154,39 @@
         </div>
       </div>
     </section>
-    <section class="page5">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
-      </div>
+    <section class="page5" id="page5">
       <div class="page_container">
         <div class="container">
           <div class="row" >
-            <div class="col-lg-6 col-sm-12">
-              <h1><img src="images/pc/title_4.png" alt="企業情報 Company info"></h1>
+            <div class="col-xl-6 col-sm-12 col-12">
+              <h1><img class="page5_titleimg" src="images/pc/title_4.png" alt="企業情報 Company info"></h1>
+              <img class="page5_img d-block d-xl-none" src="images/pc/img_08.png">
               <h2 class="page5_subtitle">株式会社D・Ace</h2>
               <div class="row page5_textbox">
-                <div class="col-sm-4">設立</div>
-                <div class="col-sm-8">設立2014年(平成26年)1月15日</div>
-                <div class="col-sm-4">資本金</div>
-                <div class="col-sm-8">資本金1,000万円</div>
-                <div class="col-sm-4">代表取締役</div>
-                <div class="col-sm-8">代表取締役（船長）飯高大樹</div>
-                <div class="col-sm-4">所在地</div>
-                <div class="col-sm-8">〒140-0014　東京都品川区大井1-24-2<br>ミヤタビル5F</div>
-                <div class="col-sm-4">電話番号</div>
-                <div class="col-sm-8">03-6429-8738</div>
+                <div class="col-sm-6 col-xl-3 col-3">設立</div>
+                <div class="col-sm-6 col-xl-9 col-9">設立2014年(平成26年)1月15日</div>
+                <div class="col-sm-6 col-xl-3 col-3">資本金</div>
+                <div class="col-sm-6 col-xl-9 col-9">資本金1,000万円</div>
+                <div class="col-sm-6 col-xl-3 col-3">代表取締役</div>
+                <div class="col-sm-6 col-xl-9 col-9">代表取締役（船長）飯高大樹</div>
+                <div class="col-sm-6 col-xl-3 col-3">所在地</div>
+                <div class="col-sm-6 col-xl-9 col-9">〒140-0014　東京都品川区大井1-24-2<br>ミヤタビル5F</div>
+                <div class="col-sm-6 col-xl-3 col-3">電話番号</div>
+                <div class="col-sm-6 col-xl-9 col-9">03-6429-8738</div>
               </div>
               <img class="more_button" src="images/pc/more_button.png">
             </div>
-            <div class="col-lg-6 col-sm-12">
-              <img class="page5_img" src="images/pc/img_08.png">
+            <div class="col-xl-6 col-sm-12 col-12">
+              <img class="page5_img d-none d-xl-block" src="images/pc/img_08.png">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="page6">
-      <div class="side_menu d-none d-md-block">
-        <a href="#">About Us</a><br>
-        <br>
-        <br>
-        <a href="#">Business</a><br>
-        <br>
-        <br>
-        <a href="#">Employment</a><br>
-        <br>
-        <br>
-        <a href="#">Company Info</a><br>
-        <br>
-        <br>
-        <a href="#">Contact</a>
-      </div>
+    <section class="page6" id="page6">
       <div class="page_container">
         <div class="container">
-          <h1><img src="images/pc/title_5.png" alt="お問い合わせ Contact"></h1>
+          <h1><img class="page6_titleimg" src="images/pc/title_5.png" alt="お問い合わせ Contact"></h1>
           <p class="page6_text">
             求人応募、パートナー企業・フリーランス技術者募集に関してのお問い合わせを承っております。<br>
             <span>※求人広告、物品/サービス販売、コンサル/セミナー等のメール案内営業は弊社通常業務の妨げになりますのでご遠慮ください。</span>
@@ -247,23 +196,78 @@
       </div>
     </section>
   </div>
+  <div class="top_footer">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-xl-6">
+        <img class="top_footerlogo" src="images/pc/footer_logo.png" alt="D・Ace">
+        <p class="top_footercopyright">Copyright © 2016. All Rights Reserved D・Ace Co.,Ltd.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-xl-6">  
+        <ul class="top_footerlist">
+          <li>個人情報保護方針について</li>
+          <li>情報セキュリティ基本方針について</li>
+          <li>テレワーク勤務規定</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
 <script>
-    $(function () {
-  $(".main").onepage_scroll();
+$(function () {
+  $(".main").onepage_scroll({
+   sectionContainer: "section", // セクションとなる要素（divなどに変更も可）
+   easing: "ease", // イージング、他にも多数のエフェクトを用意 "ease", "linear", "ease-in", "ease-out", "ease-in-out", "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000, // アニメーションの時間
+   pagination: true, // ページネーションの有無
+   updateURL: true // ページをスクロールした際にURLも変更するかの有無
+});
 });
 
-$(function() {
- var rotate = function(test, angle) {
-  test.css({
-  "transform" : "rotate("+angle+"deg)"
+// $(function() {
+//  var rotate = function(test, angle) {
+//   test.css({
+//   "transform" : "rotate("+angle+"deg)"
+//   });
+//  }
+//  $(window).scroll(function(){
+//   rotate($(".test"), $(window).scrollTop()*0.2);
+//  })
+// });
+
+
+// $(function(){
+//   $(window).scroll(function (){
+//     $(".fadein").each(function(){
+//       var imgPos = $(this).offset().top;
+//       console.log(imgPos);
+//       var scroll = $(window).scrollTop();
+//       var windowHeight = $(window).height();
+//       if (scroll > imgPos - windowHeight + windowHeight/5){
+//         $(this).animate({ opacity: 1 }, { duration: 1000, easing: 'linear' });
+//       }
+//     });
+//   });
+// });
+$(function(){
+  console.log(document.getElementById("page6"));
+  var page6 = document.getElementById("page6");
+  console.log(page6);
+  var active = page6.classList.contains('active');
+  console.log(active);
+  if(active = true){
+    console.log("ページ６なう");
+  }else{
+    console.log("じゃない");
+  }
+
+  $(window).scroll(function (){
+    var active = page6.classList.contains('active');
+    console.log(active);
   });
- }
- $(window).scroll(function(){
-  rotate($(".test"), $(window).scrollTop()*0.2);
- })
 });
+
 
 </script>
 </body>

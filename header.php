@@ -13,6 +13,11 @@ $site_name = '';
   <link href="css/header.css" rel="stylesheet" type="text/css">
   <link href="css/top.css" rel="stylesheet" type="text/css">
   <link href="css/low.css" rel="stylesheet" type="text/css">
+  <link rel=“stylesheet” href=“css/top-sm.min.css” media=“screen and (min-width:576px)“>
+  <link rel=“stylesheet” href=“css/top-md.min.css” media=“screen and (min-width:768px)“>
+  <link rel=“stylesheet” href=“css/top-lg.min.css” media=“screen and (min-width:992px)“>
+  <link rel=“stylesheet” href=“css/top-xl.min.css” media=“screen and (min-width:1200px)“>
+  <link rel=“stylesheet” href=“css/top-2xl.min.css” media=“screen and (min-width:1500px)“>
 </head>
 
 <body>

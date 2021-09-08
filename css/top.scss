@@ -1,0 +1,241 @@
+/* 共通 */
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "ヒラギノ角ゴ Pro W6" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  }
+  img{
+    max-width:100%;
+  }
+  p {
+    font-size:14px;
+    line-height:25px;
+    font-weight: bold;
+  }
+  
+  /* スマホcss */
+    .main section .page_container {
+      position: relative;
+      margin: 0 auto 0;
+      max-width: 950px;
+      z-index: 3;
+      text-align: center;
+    }
+    .more_button{
+      margin-top: 30px;
+    }
+    
+    /* 背景三角形 */
+    .test{
+      position: fixed;
+      left: 50%;
+      top: 150px;
+      margin-left: -185px;
+      height: 370px;
+      width: 370px;
+    }
+    
+      /* 共通ページ */
+      .side_menu{
+        position:absolute;
+        top:260px;
+        right:0;
+        width: 100%;
+        text-align: right;
+        margin-right: 36px;
+      }
+      .side_menu a{
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 29px;
+      }
+    
+      /* ページ1 */
+      .main section.page1 {
+        background-image: url(../images/pc/image_01.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page1 > .page_container{
+        top: 42%;
+      }
+      .main section.page1 .scroll_down{
+        margin: 80px auto 0;
+      }
+      .page_container_fotter{
+        position: absolute;
+        bottom: -35%;
+        z-index: 3;
+      }
+      .page_container_fotter img{
+        width: 100%;
+        height: 29px;
+      }
+    
+      /* ページ2 */
+      .main section.page2 {
+        background-image: url(../images/pc/image_02.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page2 > .page_container{
+        top: 20%;
+      }
+      .page2_titleimg{
+        width: 140px;
+        height: 113px;
+        margin-bottom: 36px;
+      }
+      .page2_textbox{
+        margin-top: 31px;
+        line-height: 25px;
+      }
+      .page2_subtitle{
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 23px;
+      }
+      .page2_text{
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .page2_text + .page2_text{
+        margin-top: 40px;
+      }
+    
+    
+      /* ページ3 */
+      .main section.page3 {
+        background-image: url(../images/pc/image_03.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page3 > .page_container{
+        top: 15%;
+      }
+      .page3_titleimg{
+        width: 136px;
+        height: 120px;
+        margin-bottom: 58px;
+      }
+      .page3_text{
+        color: #ffffff;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+    
+      /* ページ4 */
+      .main section.page4 {
+        background-image: url(../images/pc/image_04.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page4 > .page_container{
+        top: 20%;
+      }
+      .page4_titleimg{
+        width: 194px;
+        height: 120px;
+        margin: 0 auto 35px;
+      }
+      .page4_mainimg{
+        width: 215px;
+        height: 156px;
+        margin: 0 auto 35px;
+      }
+      .page4_text{
+        color: #ffffff;
+        font-size: 12px;
+        text-align: left;
+        font-weight: bold;
+      }
+    
+    
+      /* ページ5 */
+      .main section.page5 {
+        background-image: url(../images/pc/image_05.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page5 > .page_container > h1{
+        margin-bottom: 29px;
+      }
+      .page5 > .page_container{
+        top: 20%;
+      }
+      .page5_titleimg{
+        width: 212px;
+        height: 98px;
+        margin: 0 auto 32px;
+      }
+      .page5_img{
+        width: 157px;
+        height: 179px;
+        margin: 0 auto 30px;
+      }
+      .page5_subtitle{
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        text-align: left;
+    
+      }
+      .page5_textbox > div{
+        text-align: left;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 25px;
+      }
+  
+    
+      /* ページ6 */
+      .main section.page6 {
+        background-image: url(../images/pc/image_06.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+      }
+      .page6 > .page_container{
+        top: 20%;
+      }
+      .page6_titleimg{
+        width: 130px;
+        height: 120px;
+        margin-bottom: 94px;
+      }
+    
+      .page6_btn{
+        background-color: #B70000;
+        color: #ffffff;
+        width: 265px;
+        height: 51px;
+        text-align: center;
+      }
+    
+      .page6_text{
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .page6_text > span{
+        font-size: 12px;
+      }
+      .page6 .formbtn{
+        margin-top: 65px;
+      }
+    
