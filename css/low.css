@@ -584,15 +584,13 @@ margin-bottom: 40px;
   font-size: 20px;
 }
 .page4_backtop {
-  background-image: url(../images/yazirusi_black_r.svg);
+  background-image: url(../images/common_lower/yazirusi_black_r.svg);
   background-repeat: no-repeat;
   background-position: 75% 30%;
   text-decoration: none;
   padding-bottom: 38px;
 }
-.page4_backtop a{
-pointer-events: none;
-}
+
 .page4_backtop a:hover p{
   text-decoration: none;
 }
