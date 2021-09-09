@@ -4,7 +4,7 @@ p{
   font-weight: bold;
 }
 .footer_class{
-  width: 768px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,9 +19,15 @@ p{
   line-height: 14px;
   padding-top: 30px;
 }
+.footer_white{
+  margin: 0 70px 28px;
+}
 /* ここからaboutus */
 .pc_page1{
-  width: 668px;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  padding: 0 35px;
 }
 .top_topic1 img{
   margin-bottom: 275px;
@@ -29,12 +35,13 @@ p{
   height:230px;
 }
 .member img{
-  width: 668px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page1_red{
   font-size: 20px;
   line-height: 36px;
-  padding:64px 20px 64px 200px;
+  padding:64px 80px 64px 120px;
 }
 /* about usのorder */
 .order1{
@@ -59,7 +66,11 @@ p{
 
 /* ここからbusiness */
 .pc_page2{
-width: 728px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 0 35px;
+text-align: center;
 }
 .top_topic2 img{
   margin-top: 178px;
@@ -78,7 +89,7 @@ width: 728px;
   padding-top: 7px;
 }
 .zisseki .col-4 p{
-  width: 200px;
+  width: 100%;
 }
 
 /* ここからemployment */
@@ -135,7 +146,11 @@ margin-bottom: 62px;
 
 /* ここからcompanyinfo */
 .pc_page5{
-  width: 668px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 35px;
+  text-align: center;
 }
 .top_topic5 .companyinfo_pic{
   height:200px;
@@ -148,7 +163,8 @@ margin-bottom: 62px;
   margin-bottom: 90px;
 }
 .company_info{
-  width: 520px;
+  width: 100%;
+  padding: 0 90px;
 }
 .company_info .col-12{
   padding: 0 22px 0 0;
@@ -157,7 +173,6 @@ margin-bottom: 62px;
   font-size: 16px;
   padding-left: 27px;
   line-height: 30px;
-  width:300px;
 }
 .company_info1 th{
   font-size: 16px;
@@ -247,12 +262,12 @@ max-width: 520px;
 
 /* ここからcontactconfirm */
 .pc_page11{
-max-width: 668px;
-padding:68px 0 69px;
+width: 100%;
+padding:0 35px ;
 }
 .page11_contact{
-padding: 0;
-max-width: 520px;
+padding: 68px 75px 69px;
+width:100%;
 }
 .page11_contact .kakunin{
   font-size: 18px;
@@ -262,6 +277,9 @@ max-width: 520px;
 .page11_button_l{
 margin-right: 280px;
 margin-top: 32px;
+}
+.page11_button_r{
+  margin-top: 31px;
 }
 
 /* ここからcontactfibished */
