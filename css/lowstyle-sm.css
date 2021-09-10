@@ -52,7 +52,6 @@ p{
   padding-right: 0;
   padding-left: 25px;
 }
-/* about usここまで */
 .page1_img img{
   margin-bottom: 100px;
 }
@@ -105,32 +104,48 @@ text-align: center;
 .page3_daikoukai{
   padding-bottom: 45px;
 }
+.white_body{
+  padding:0 66px;
+}
 .zinzai{
-  margin: 45px auto 80px auto;
-  width: 668px;
+  margin: 45px 0 80px;
   padding-top: 80px;
   padding-bottom: 77px;
 }
 .ouboyoko{
   padding-top: 86px;
   padding-bottom: 67px;
-  width: 668px;
+  width: 100%;
 }
 .page3_interview{
   padding-bottom: 54px;
-  width: 668px;
+  width: 100%;
 }
 .page3_interview .row{
   margin:0 100px;
 }
 .hatarakikata{
-  width: 433px;
+  min-width: 433px;
 }
 
+.mail_3 button{
+  max-width:100%;
+  height: 67px;
+  padding: 0 60px 0;
+}
+
+.mail_3 .white{
+  font-size: 18px;
+}
 /* ここからinterview */
+.pc_page4{
+  padding: 0 50px;
+}
 .page4_interview{
-  width: 668px;
   margin-bottom: 72px;
+}
+.page4_backtop {
+  background-position: 65% 32%;
 }
 .hitokoto{
 padding: 40px 52px;
@@ -185,13 +200,13 @@ margin-bottom: 62px;
 
 /* ここからnewslist */
 .pc_page6{
-max-width: 668px;
+padding: 0 50px;
 }
 .page6_news{
-max-width: 608px;
+  padding: 0 22px;
 }
 .page6_news .news_image{
-  max-width: 150px;
+  min-width: 150px;
 }
 .page6_news .row{
   padding-bottom: 12px;

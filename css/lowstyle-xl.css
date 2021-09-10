@@ -237,16 +237,19 @@ margin-right: 92px;
 .hukidashi img{
   margin: 0 auto 40px;
 }
-.mail_3{
-  width:359px;
+.mail_3 button{
+  max-width:100%;
   height: 67px;
-  margin: 0 auto;
-  padding:20px 0;
-  margin-bottom: 25px;
+  padding: 0 62px 0;
+}
+.mail_3 .white{
+  font-size: 18px;
+}
+.white_body{
+  padding: 0 138px;
 }
 .zinzai{
-  margin: 45px auto 80px auto;
-  width: 1088px;
+  margin: 45px 0 80px;
   padding-top: 80px;
   padding-bottom: 77px;
 }
@@ -259,7 +262,6 @@ margin-right: 92px;
 .ouboyoko{
   padding-top: 86px;
   padding-bottom: 67px;
-  width: 1088px;
 }
 .topic3{
   font-size: 24px;
@@ -276,16 +278,14 @@ margin-right: 92px;
  .table_left{
    font-size: 16px;
   line-height: 20px;
-   width: 260px;
+  padding: 0 90px;
  }
  .oubo_main{
-   width: 462px;
    font-size: 16px;
    line-height: 25px;
  }
  .page3_interview{
    padding-bottom: 94px;
-   width: 1088px;
  }
  .page3_interview .row{
    margin:0 100px;
@@ -323,10 +323,9 @@ margin-right: 92px;
    margin: 80px 0 62px 0;
  }
  .pc_page4{
-   padding-bottom: 79px;
+   padding: 0 170px 79px;
  }
  .page4_interview{
-   width: 1088px;
    margin-bottom: 72px;
  }
  .bassui{
@@ -438,16 +437,16 @@ margin-right: 92px;
   height:186px;
 }
 .pc_page6{
-max-width: 1088px;
+padding: 0 138px;
 }
 .page6_news .col-8{
 padding: 0;
 }
 .page6_news{
-max-width: 905px;
+padding: 0 92px;
 }
 .page6_news .news_image{
-  max-width: 169px;
+  min-width: 169px;
   height:107px;
 }
 .page6_news .row{
@@ -482,9 +481,6 @@ padding: 73px 0 46px;
 }
 .page7_news{
 max-width: 905px;
-}
-.page7_news .days{
-  font-size: 14px;
 }
 .page7_news .news_image{
   width: 483px;
@@ -557,11 +553,17 @@ padding-bottom: 62px;
   height:186px;
 }
 .pc_page10{
-max-width: 1088px;
-padding:74px 0 70px;
+  padding:0 139px;
 }
 .page10_contact{
-max-width: 905px;
+width: 100%;
+padding:74px 90px 71px;
+}
+.pc_page10 .down_group{
+  padding:0 185px;
+}
+.page10_contact .big_form{
+  margin-bottom: 30px;
 }
 .page10_contact span{
   font-size: 12px;
@@ -575,23 +577,16 @@ max-width: 905px;
 .inline{
   margin:71px 0 40px 90px;
 }
-.page10_contact .select{
-  width: 536px;
+.form-groups{
+  padding: 0 134px;
 }
 .page10_contact .small_form{
-  width:720px;
   height:38px;
   margin-bottom: 30px;
-  margin-left: 90px;
-}
-.form-group label{
-  margin-left: 90px;
 }
 .page10_contact .big_form{
-  width:720px;
   height:214px;
   margin-bottom: 30px;
-  margin-left: 90px;
 }
 .page10_red{
   margin-bottom: 30px;
