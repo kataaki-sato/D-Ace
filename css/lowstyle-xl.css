@@ -598,8 +598,9 @@ max-width: 905px;
   font-size: 14px;
 }
 .page10_contact .button{
-  width: 166px;
   height:44px;
+  margin: 0 auto;
+  padding: 0 27px;
 }
 .pc_page11{
 width: 100%;
@@ -623,15 +624,16 @@ input.radio11 {
 }
 .page11_button_l{
 height: 45px;
-margin-right: 470px;
 margin-top: 32px;
 }
 .page11_button_r{
   height: 45px;
 }
 .pc_page12{
-max-width: 1088px;
-padding:68px 0 67px;
+padding:0 138px;
+}
+.pc_page12 .text-center{
+  padding: 68px 0 67px;
 }
 .finished{
   font-size: 18px;
@@ -640,6 +642,7 @@ padding:68px 0 67px;
 .page12_backtop{
   margin-top: 53px;
 }
+
 .site-header{
   display: flex;
   padding: 17px 26.5px;

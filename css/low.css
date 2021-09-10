@@ -299,7 +299,7 @@ padding: 0;
   padding: 0 8px;
 }
 .zisseki .col-8{
-  padding: 0 15px 0 25px;
+  padding: 0 5px 0 35px;
 }
 .zisseki .gijutsu{
   margin-bottom: 26px;
@@ -858,15 +858,18 @@ padding-bottom: 34px;
 .pc_page10{
 margin-left: auto;
 margin-right: auto;
-background-color: #FFFFFF;
-max-width: 343px;
-padding:46px 0 36px;
+width: 100%;
+padding:0 18px;
+}
+.pc_page10 label{
+  font-weight: bold;
 }
 .page10_contact{
-max-width: 302px;
+background-color: #FFFFFF;
 margin-left: auto;
 margin-right: auto;
 text-align: left;
+padding:46px 20px 36px;
 }
 .page10_contact span{
   font-size: 11px;
@@ -883,19 +886,19 @@ text-align: left;
   margin:54px 0 27px;
 }
 .page10_contact .select{
-  width: 302px;
+  width: 100%;
   margin-left:auto;
   margin-right: auto;
 }
 .page10_contact .small_form{
-  width:302px;
+  width:100%;
   height:50px;
   margin-left:auto;
   margin-right: auto;
   margin-bottom: 25px;
 }
 .page10_contact .big_form{
-  width:302px;
+  width:100%;
   height:214px;
   margin-left:auto;
   margin-right: auto;
@@ -909,9 +912,10 @@ text-align: left;
 .page10_contact .button{
   background: #0637A7;
   color: #FFFFFF;
-  width: 141px;
   height:39px;
   border: 0;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .pc_page11{
 width: 100%;
@@ -1020,9 +1024,11 @@ background-color: #FFFFFF;
 .pc_page12{
 margin-left: auto;
 margin-right: auto;
-background-color: #FFFFFF;
-max-width: 340px;
-padding:52px 20px 51px;
+width: 100%;
+padding:0 18px;
+}
+.pc_page12 .text-center{
+  padding: 52px 20px 51px;
 }
 .finished{
   font-size: 20px;
@@ -1037,4 +1043,11 @@ padding:52px 20px 51px;
   margin-bottom: 0;
   font-size: 14px;
   line-height: 22px;
+}
+
+.page12_backtop a:hover p{
+  text-decoration: none;
+}
+.page12_backtop a:hover {
+  text-decoration: none;
 }

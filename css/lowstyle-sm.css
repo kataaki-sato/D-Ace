@@ -239,25 +239,21 @@ max-width: 520px;
   height:156px;
 }
 .pc_page10{
-  max-width: 668px;
-  padding:74px 0 70px;
+  padding:0 35px;
 }
 .page10_contact{
-max-width: 520px;
+width: 100%;
+padding:74px 60px 70px;
 }
 .page10_contact span{
   font-size: 16px;
   line-height: 30px;
 }
-.page10_contact .small_form{
-  margin-left: 110px;
+.pc_page10 .down_group{
+  padding:0 40px;
 }
 .page10_contact .big_form{
   margin-bottom: 30px;
-  margin-left: 110px;
-}
-.form-group label{
-  margin-left: 90px;
 }
 
 /* ここからcontactconfirm */
@@ -275,7 +271,6 @@ width:100%;
   margin-bottom: 64px;
 }
 .page11_button_l{
-margin-right: 280px;
 margin-top: 32px;
 }
 .page11_button_r{
@@ -284,6 +279,8 @@ margin-top: 32px;
 
 /* ここからcontactfibished */
 .pc_page12{
-max-width: 668px;
-padding:68px 0 67px;
+padding: 0 50px;
+}
+.pc_page12 .text-center{
+  padding: 68px 20px 67px;
 }
