@@ -463,6 +463,7 @@ padding: 0 92px;
   padding-top: 76px;
 }
 .days{
+  margin-bottom: 14px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -476,15 +477,14 @@ padding: 0 92px;
   margin-bottom: 24px;
 }
 .pc_page7{
-max-width: 1088px;
-padding: 73px 0 46px;
+padding:0 138px;
 }
 .page7_news{
-max-width: 905px;
+padding: 73px 172px 46px;
 }
 .page7_news .news_image{
-  width: 483px;
   margin: 20px 0 28px 0;
+  padding-right: 263px;
 }
 .page7_back p{
   margin-top: 73px;
@@ -500,11 +500,11 @@ max-width: 905px;
   height:186px;
 }
 .pc_page8{
-max-width: 1088px;
-padding:80px 0 77px;
+padding:0 139px;
 }
-.page8_recruit{
-max-width: 905px;
+
+.partnerfreelance_main{
+padding:80px 92px 77px;
 }
 .page8_recruit .text-center{
   margin-bottom: 64px;
@@ -515,10 +515,11 @@ max-width: 905px;
   line-height: 20px;
 }
 .page8_toiawase{
-  padding-top:30px;
+  padding: 30px 315px 0;
 }
 .mail{
-  width:265px;
+  width: 100%;
+  max-width: 265px;
   height: 51px;
   line-height: 36px;
   font-size: 19px;
@@ -527,9 +528,8 @@ max-width: 905px;
   background-position: 10% 50%;
 }
 .pc_page9{
-max-width: 1088px;
 margin-top: 115px;
-padding:80px 0 92px;
+padding:0 138px;
 }
 .top_topic9{
 font-size: 24px;
@@ -537,7 +537,7 @@ line-height: 29px;
 padding-bottom: 62px;
 }
 .page9_kitei{
-  max-width: 905px;
+  padding: 80px 92px 92px;
 }
 .page9_midashi{
   font-size: 18px;

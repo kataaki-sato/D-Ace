@@ -219,33 +219,34 @@ padding: 0 50px;
 
 /* ここからnewspage */
 .pc_page7{
-  max-width: 668px;
-  padding: 53px 0 36px
+  width: 100%;
+  padding: 0 50px;
 }
 .page7_news{
-  max-width: 520px;
+  padding: 53px 80px 36px;
 }
 
 /* ここからPrtner-Freelance */
 .pc_page8{
-max-width: 668px;
-padding:80px 0 77px;
-}
-.page8_recruit{
-max-width: 520px;
+padding:0 50px;
 }
 .page8_recruit .text-center{
   margin-bottom: 64px;
 }
-
+.partnerfreelance_main{
+padding:80px 94px 77px;
+}
+.page8_toiawase{
+  padding-top:24px;
+  padding: 0 150px 57px;
+}
 /* ここからテレワーク */
 .pc_page9{
-  max-width: 668px;
   margin-top: 115px;
-  padding:80px 0 92px;
+  padding:0 50px;
 }
 .page9_kitei{
-  max-width: 520px;
+  padding:80px 92px 92px;
 }
 
 /* ここからcontactform */

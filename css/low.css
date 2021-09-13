@@ -774,25 +774,30 @@ text-align: left;
 text-align: left;
 margin-left: auto;
 margin-right: auto;
-background-color: #FFFFFF;
-max-width: 359px;
-padding: 75px 29px 26px;
+width:100%;
+padding:0 8px;
 }
 .page7_news{
 margin-left: auto;
 margin-right: auto;
+padding: 75px 29px 26px;
 }
 .page7_news .news_image{
-  width: 302px;
+  width: 100%;
   margin: 13px 0 25px 0;
 }
-
-.page7_back{
+.page7_back a{
   color: #000000;
 }
 .page7_back p{
   margin-top: 69px;
   margin-bottom: 0;
+}
+.page7_back a:hover p{
+  text-decoration: none;
+}
+.page7_back a:hover {
+  text-decoration: none;
 }
 .page7_midashi{
   font-size: 20px;
@@ -801,14 +806,16 @@ margin-right: auto;
 .pc_page8{
 margin-left: auto;
 margin-right: auto;
-background-color: #FFFFFF;
-max-width: 343px;
-padding:46px 20px 57px;
+width: 100%;
+padding: 0 16px;
 }
 .page8_recruit{
 text-align: left;
 margin-left: auto;
 margin-right: auto;
+}
+.partnerfreelance_main{
+  padding:46px 20px 0;
 }
 .page8_recruit .text-center{
   margin-bottom: 40px;
@@ -822,18 +829,21 @@ margin-right: auto;
   padding-top:24px;
   color: #FFFFFF;
   text-align: center;
+  padding: 0 35px 57px;
 }
 .mail{
-  width:191px;
   height: 40px;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 25px;
-  margin: 0 auto;
+  margin: 40px auto 0;
   padding-top: 8px;
   background-color: #B70000;
   background-image: url(../images/common_lower/mail_logo.svg);
   background-repeat: no-repeat;
   background-position: 10% 50%;
+  text-decoration: none;
+}
+.mail a:hover {
   text-decoration: none;
 }
 .pagetop_topic9{
@@ -842,13 +852,13 @@ margin-right: auto;
 .pc_page9{
 margin-left: auto;
 margin-right: auto;
-background-color: #FFFFFF;
-max-width: 343px;
-padding:44px 18px 54px;
+width: 100%;
+padding:0 16px;
 }
 .page9_kitei{
   margin-left: auto;
   margin-right: auto;
+  padding:44px 18px 54px;
 }
 .top_topic9{
 font-size: 20px;
