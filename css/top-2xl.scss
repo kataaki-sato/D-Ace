@@ -1,3 +1,30 @@
+body[class*='viewing-page-']{
+  background-image: url(../images/pc/image_01.png),url(../images/pc/image_02.png),url(../images/pc/image_03.png),url(../images/pc/image_04.png),url(../images/pc/image_05.png),url(../images/pc/image_06.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  transition: 1s;
+}
+body.viewing-page-1{
+  background-position: left 0vh,left 100vh,left 100vh,left 100vh,left 100vh,left 100vh;
+}
+body.viewing-page-2{
+  background-position: left -120vh,left 0vh,left 100vh,left 100vh,left 100vh,left 100vh;
+}
+body.viewing-page-3{
+  background-position: left -120vh,left -120vh,left 0vh,left 100vh,left 100vh,left 100vh;
+}
+body.viewing-page-4{
+  background-position: left -120vh,left -120vh,left -120vh,left 0vh,left 100vh,left 100vh;
+}
+body.viewing-page-5{
+  background-position: left -120vh,left -120vh,left -120vh,left -120vh,left 0vh,left 100vh;
+}
+body.viewing-page-6{
+  background-position: left -120vh,left -120vh,left -120vh,left -120vh,left -120vh,left 0vh;
+}
+
+
 .main section .page_container {
     position: relative;
     margin: 0 auto 0;
@@ -10,13 +37,49 @@
   }
   
   /* 背景三角形 */
-  .test{
+  .triangle{
     position: fixed;
-    left: 50%;
-    top: 150px;
-    margin-left: -185px;
+    left: 25%;
+    top: 0%;
     height: 370px;
     width: 370px;
+    background-color: #F00000;
+    z-index: 0;
+    transition: 1s ease;
+    background-image: url(../images/pc/large_triangle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(50deg);
+  }
+  .triangle.rotate1{
+    transform: rotate(50deg);
+    left: 25%;
+    top: 0%;
+  }
+  .triangle.rotate2{
+    transform: rotate(100deg);
+    left: 25%;
+    top: 10%;
+  }
+  .triangle.rotate3{
+    transform: rotate(150deg);
+    left: 35%;
+    top: 20%;
+  }
+  .triangle.rotate4{
+    transform: rotate(200deg);
+    left: 25%;
+    top: 50%;
+  }
+  .triangle.rotate5{
+    transform: rotate(250deg);
+    left: 40%;
+    top: 60%;
+  }
+  .triangle.rotate6{
+    transform: rotate(300deg);
+    left: 40%;
+    top: 60%;
   }
   
 /* サイドメニュー */
@@ -27,12 +90,7 @@
   z-index:100;
   padding:1rem;
   text-align: right;
-}
-.side_menu a{
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+  margin-right: 36px;
 }
 .side_menu li{
   padding-top: 40px;
@@ -40,6 +98,34 @@
 .side_menu li:first-child{
   padding-top: 0;
 }
+.side_menu li a{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 4px;
+  font-family: Montserrat;
+  display: inline-block;
+  position: relative;
+}
+.side_menu li a:hover span{
+  opacity: 0.5;
+}
+
+.side_menu li a.active:before{
+  content: "";
+  background-color: #B70002;
+  width: 100%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.side_menu li a.active:before:hover{
+  // opacity: 1;
+}
+
 
 /* フッター  */
 .top_footer{
@@ -66,11 +152,11 @@
   
     /* ページ1 */
     .main section.page1 {
-      background-image: url(../images/pc/image_01.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page1 > .page_container{
       top: 42%;
@@ -90,11 +176,11 @@
   
     /* ページ2 */
     .main section.page2 {
-      background-image: url(../images/pc/image_02.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page2 > .page_container{
       top: 20%;
@@ -120,11 +206,11 @@
   
     /* ページ3 */
     .main section.page3 {
-      background-image: url(../images/pc/image_03.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page3 > .page_container{
       top: 15%;
@@ -140,11 +226,11 @@
   
     /* ページ4 */
     .main section.page4 {
-      background-image: url(../images/pc/image_04.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page4 > .page_container{
       top: 29%;
@@ -164,11 +250,11 @@
   
     /* ページ5 */
     .main section.page5 {
-      background-image: url(../images/pc/image_05.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page5 > .page_container{
       top: 29%;
@@ -199,11 +285,11 @@
   
     /* ページ6 */
     .main section.page6 {
-      background-image: url(../images/pc/image_06.png);
+      // 
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #464646;
+      // 
     }
     .page6 > .page_container{
       top: 30%;
@@ -228,7 +314,12 @@
       font-size: 12px;
     }
     .page6 .formbtn{
-      margin-top: 82px;
+        display: inline-block; 
+        margin-top: 82px;
+        background-color: #ffffff;
+    }
+    .page6 .formbtn:hover img{
+        opacity: 0.8;
     }
 
   

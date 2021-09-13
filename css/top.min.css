@@ -18,6 +18,10 @@ p {
   font-weight: bold;
 }
 
+.onepage-pagination {
+  display: none;
+}
+
 /* スマホcss */
 .main section .page_container {
   position: relative;
@@ -59,11 +63,9 @@ p {
 
 /* ページ1 */
 .main section.page1 {
-  background-image: url(../images/pc/image_01.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page1 > .page_container {
@@ -87,11 +89,9 @@ p {
 
 /* ページ2 */
 .main section.page2 {
-  background-image: url(../images/pc/image_02.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page2 > .page_container {
@@ -128,11 +128,9 @@ p {
 
 /* ページ3 */
 .main section.page3 {
-  background-image: url(../images/pc/image_03.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page3 > .page_container {
@@ -153,11 +151,9 @@ p {
 
 /* ページ4 */
 .main section.page4 {
-  background-image: url(../images/pc/image_04.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page4 > .page_container {
@@ -185,11 +181,9 @@ p {
 
 /* ページ5 */
 .main section.page5 {
-  background-image: url(../images/pc/image_05.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page5 > .page_container > h1 {
@@ -228,11 +222,9 @@ p {
 
 /* ページ6 */
 .main section.page6 {
-  background-image: url(../images/pc/image_06.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
 }
 
 .page6 > .page_container {
