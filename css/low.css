@@ -189,7 +189,6 @@ p {
 }
 .page_back{
   background-color: #FFFFFF;
-
 }
 .page1_midashi{
   font-size: 20px;
@@ -214,26 +213,21 @@ p {
 }
 .top_topic2 .business{
   height:146px;
+  margin-top: 123px;
 }
 .top_topic2 .business_top{
   height:263px;
 }
-.business{
-    margin-top: 75px;
-}
-
 .top_topic3 img{
   text-align: center;
   height:145px;
 }
 .top_topic3 .employment{
   height:146px;
+  margin-top: 123px;
 }
 .top_topic3 .employ_top{
   height:263px;
-}
-.employment{
-  margin-top: 75px;
 }
 .top_topic4{
   background-color: #B70000;
@@ -243,7 +237,6 @@ p {
   margin: 48px 0 75px 0;
   height:146px;
 }
-
 .top_topic6 img{
   margin: 48px 0 75px;
   height:146px;
@@ -279,7 +272,6 @@ padding: 48px 0 61px;
   margin-top: 45px;
   margin-bottom: 90px;
 }
-
 .page2_text{
   margin-bottom: 40px;
   padding-right: 13px;
@@ -300,9 +292,6 @@ padding: 0;
 }
 .zisseki .col-8{
   padding: 0 5px 0 35px;
-}
-.zisseki .gijutsu{
-  margin-bottom: 26px;
 }
 .zisseki p{
   font-size: 24px;
@@ -361,21 +350,29 @@ text-align: left;
   color: #FFFFFF;
   background-color: #102148;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 48px;
   padding-top: 52px;
 }
+.kaihatsu .text-left{
+  padding:0 50px;
+}
 .kaihatsu_koutei{
-  margin:0 8px;
+  padding:0 8px;
 }
 .kaihatsu .midashi{
   font-size: 20px;
   line-height:25px;
 }
+.kaihatsu_midashi{
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
 .business_ex{
-  width: 130px;
+  max-width: 130px;
   font-size: 16px;
   line-height: 30px;
   margin-top: 33px;
@@ -415,16 +412,18 @@ text-align: left;
   background-position: 50%;
   background-size: cover;
   text-align: center;
-  margin-bottom: 30px;
 }
 .page3_daikoukai img{
   height:269px;
+  margin-bottom: 113px;
+  margin-top: 45px;
 }
 .hukidashi img{
   margin: 0 auto 86px;
 }
 .hukidashi p{
   margin: 27px 0 40px 0;
+  padding: 0 27px;
   color: #FFFFFF;
   font-size: 28px;
   line-height: 40px;
@@ -433,7 +432,6 @@ text-align: left;
 .page3_toiawase p{
 color:#FFFFFF;
 }
-
 .white_body{
   padding:0 16px;
 }
@@ -467,8 +465,7 @@ color:#FFFFFF;
   margin-right: auto;
 }
 .ouboyoko table{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 5px;
   font-weight: bold;
 }
 .ouboyoko table td {
@@ -601,7 +598,6 @@ margin-bottom: 40px;
   text-decoration: none;
   padding-bottom: 38px;
 }
-
 .page4_backtop a:hover p{
   text-decoration: none;
 }
@@ -612,7 +608,6 @@ margin-bottom: 40px;
   color: #000000;
   margin-bottom: 0;
 }
-
 .top_topic5 .companyinfo_pic{
   margin-top: 123px;
   height:146px;
@@ -644,11 +639,17 @@ margin-bottom: 40px;
 .company_info .col-12{
   padding: 0;
 }
+.company_info1 a{
+  color: #000;
+}
 .company_info1 td{
   font-size: 14px;
   padding-left: 12px;
   font-weight: bold;
   line-height: 25px;
+}
+.company_info1 th{
+  min-width: 50px;
 }
 .iframe-wrap {
   position: relative;
@@ -692,7 +693,6 @@ margin-bottom: 40px;
 }
 .enkaku span{
   color: #B70000;
-
 }
 .page5_last{
   padding: 80px 0 46px 0;
@@ -957,8 +957,6 @@ text-align: left;
   text-align: center;
   margin-bottom: 45px;
 }
-
-
 .my-radio {
   position: relative;
   display: block; /* 縦並びに */
@@ -971,7 +969,6 @@ text-align: left;
   input {
     display: none;
 }
-
 /* 常に表示する円 */
 .radio-mark {
   position: absolute;
@@ -1001,7 +998,6 @@ text-align: left;
 .radio-mark:after {
     opacity: 1; /* 透明を解除 */
   }
-
 .my-radio p{
   padding-top: 5px;
   margin-left: 14px;
@@ -1026,7 +1022,6 @@ text-align: left;
   display: flex;
   justify-content: space-between;
 }
-
 .page11_button_l{
 height: 45px;
 margin-top: 44px;
@@ -1068,10 +1063,15 @@ padding:0 18px;
   font-size: 14px;
   line-height: 22px;
 }
-
 .page12_backtop a:hover p{
   text-decoration: none;
 }
 .page12_backtop a:hover {
   text-decoration: none;
+}
+
+@media(min-width: 768px){
+  a[href^="tel:"]{
+    pointer-events: none;
+  }
 }

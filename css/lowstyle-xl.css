@@ -5,7 +5,8 @@
     font-weight: bold;
   }
   .footer_class{
-    width: 80%;
+    width: 100%;
+    padding: 0 139px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -42,7 +43,6 @@
     margin:28px 0 27px;
   }
   .footer_white p{
-    width: 207px;
     text-align: left;
     font-size: 13px;
     line-height: 30px;
@@ -149,9 +149,6 @@ margin-right: 92px;
   font-size: 24px;
   margin-bottom: 77px;
 }
-.zisseki .gijutsu{
-  margin-bottom: 91px;
-}
 .zisseki .col-4 .first_topic{
   font-size: 14px;
   height:36px;
@@ -166,6 +163,9 @@ margin-right: 92px;
   height:40px;
   margin:1em 0;
   padding-top: 7px;
+}
+.zisseki .col-8{
+padding: 0 5px 0 0;
 }
 .zisseki .col-8 p{
   margin-bottom: 28px;
@@ -183,18 +183,21 @@ margin-right: 92px;
 }
 .kaihatsu{
   margin-top: 107px;
-  padding-bottom: 66px;
+  padding-bottom: 67px;
   padding-top: 72px;
 }
 .kaihatsu .row{
   margin: 0 120px;
 }
 .kaihatsu_koutei{
-  margin:0 77px;
+  padding:0 77px;
 }
 .kaihatsu .midashi{
   font-size: 24px;
   line-height:29px;
+}
+.kaihatsu_midashi{
+  padding: 0 165px;
 }
 .business_ex{
   margin-top: 62px;
@@ -226,6 +229,9 @@ margin-right: 92px;
 }
 .page3_daikoukai img{
   height:611px;
+}
+.employ_member{
+  padding: 0 139px;
 }
 .hukidashi p{
   margin: 60px 0;
@@ -352,7 +358,7 @@ margin-right: 92px;
    line-height: 30px;
  }
  .company_image{
-   padding: 40px 17px 68px;
+   padding: 40px 50px 68px;
  }
  .company_image .col-md-6{
    padding: 6px;
