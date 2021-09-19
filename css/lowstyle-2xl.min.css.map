@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "lowstyle-2xl.scss"
+    ],
+    "names": [],
+    "file": "lowstyle-2xl.min.css"
+}

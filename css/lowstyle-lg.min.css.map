@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "lowstyle-lg.scss"
+    ],
+    "names": [],
+    "file": "lowstyle-lg.min.css"
+}
