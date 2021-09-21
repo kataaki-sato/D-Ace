@@ -151,7 +151,7 @@ p {
 .pc_page4{
   background-color: #B70000;
   text-align: center;
-  padding: 0 16px 29px;
+  padding: 0 8px 29px;
 }
 .pc_page5{
   width: 100%;
@@ -572,7 +572,7 @@ color:#FFFFFF;
 }
 .hitokoto{
 background-color: #FFB4B4;
-padding: 40px 13px;
+padding: 40px 21px;
 text-align: left;
 margin-top: 60px;
 margin-bottom: 40px;
@@ -581,7 +581,7 @@ margin-bottom: 40px;
   height: 84px;
 }
 .hitokoto .col-8{
-  padding-left: 0;
+  padding: 0;
 }
 .hitokoto .col-4{
   padding: 0;
@@ -592,9 +592,6 @@ margin-bottom: 40px;
   font-size: 20px;
 }
 .page4_backtop {
-  background-image: url(../images/common_lower/yazirusi_black_r.svg);
-  background-repeat: no-repeat;
-  background-position: 75% 30%;
   text-decoration: none;
   padding-bottom: 38px;
 }
@@ -758,6 +755,7 @@ text-align: left;
 }
 .pull_order{
   font-size: 12px;
+  font-weight: bold;
   line-height: 29px;
   padding-right: 12px;
   color: #707070;
@@ -780,7 +778,7 @@ padding:0 8px;
 .page7_news{
 margin-left: auto;
 margin-right: auto;
-padding: 75px 29px 26px;
+padding: 48px 29px 26px;
 }
 .page7_news .news_image{
   width: 100%;
@@ -898,6 +896,9 @@ padding:46px 20px 36px;
   line-height: 18px;
   color: #B70000;
 }
+.form-control{
+  font-weight: bold;
+}
 .page10_midashi{
   font-size: 16px;
   line-height: 20px;
@@ -948,7 +949,7 @@ margin: 0 auto;
 text-align: left;
 }
 .page11_contact{
-  padding: 52px 18px 51px;
+  padding: 52px 22px 51px;
   margin: 0 auto;
 }
 .page11_contact .kakunin{
@@ -965,8 +966,12 @@ text-align: left;
   cursor: pointer;
   user-select: none;
 }
+.form-check-input{
+  width:30px;
+  height: 30px;
+}
   /* inputは非表示にする */
-  input {
+input {
     display: none;
 }
 /* 常に表示する円 */
@@ -998,6 +1003,11 @@ text-align: left;
 .radio-mark:after {
     opacity: 1; /* 透明を解除 */
   }
+  .page10_radio .my-radio p{
+    padding-top: 5px;
+    margin-left: 14px;
+    font-size: 16px;
+  }
 .my-radio p{
   padding-top: 5px;
   margin-left: 14px;
@@ -1023,6 +1033,7 @@ text-align: left;
   justify-content: space-between;
 }
 .page11_button_l{
+  font-weight: bold;
 height: 45px;
 margin-top: 44px;
 padding: 0 19px;
@@ -1035,6 +1046,7 @@ background-color: #FFFFFF;
   padding: 0 23px;
   height: 45px;
   margin-top: 44px;
+  font-weight: bold;
 }
 .toiawase11{
   font-size: 16px;
